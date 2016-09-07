@@ -1,0 +1,545 @@
+.bodyCardClient{
+    width: 100%;
+    background: white;
+    padding-bottom: 15px;
+}
+
+.cli_info{
+	top: 25px !important;
+}
+
+.idClient{
+    padding: 11px;
+    color: black;
+    font-size: 20px;
+}
+.idClient2{
+ 	color: #54a5b2;
+    font-weight: bold;
+    padding: 6px 9px;
+}
+.idClient3{
+    color: black;
+    padding: 6px 9px;
+    font-size: 15px;
+    width: 402px;
+}
+
+.bodyCardClient .butCard{
+	margin-left: 13px;
+	border-collapse: collapse;
+}
+
+.butCard .tab-td{
+	border: 1px solid gray;
+    padding: 8px 29px;
+    width: 130px;
+    text-align: center;
+    color: #255688;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.butCard .active{
+	background: #54a5b2;
+    color: #fff;
+}
+
+
+.bodyCardClient .tab{
+	display: table;
+	width: 0%;
+    background: #fff;
+    border-radius: 0px;
+    color: white;
+    font-size: none;
+    font-weight: none;
+}
+.bodyCardClient .tab-tr{
+	display: table-row;
+}
+.bodyCardClient .tab-td{
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+.lineCard{
+    margin: 11px 12px;
+}
+
+.nameTable{
+	color: black;
+	font-size: 14px;
+    /*font-weight: bold;*/
+    padding: 5px 5px;
+    /*font: 1.1em "CenturyGothic" , sans-serif;*/
+}
+.cardTable{
+	border: 1px solid #A7A7A7;;
+    margin-bottom: 10px;
+    background: #EFEEEE;
+    display: inline-block;
+}
+.cardTable #linetable{
+	border: 1px solid #A7A7A7;;
+   	margin: 2px;
+   	background: #EAEAEA
+}
+
+.client{
+	background:white;
+	padding: 0px 6px;
+	padding-bottom: 3px;
+}
+.client label{
+	color: #565656;
+	margin-left: 0px;
+	font-size: 13px;
+}
+.client input{
+    width: 400px;
+    background: #F3F3F3;
+    border: 1px solid #9C9C9C;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+.client input:last-child{
+	margin-bottom: 5px;
+}
+
+.contact{
+	background: white;
+	padding: 6px;
+}
+.contact .tab-right{
+	text-align: right;
+    color: #565656;
+    width: 130px;
+    font-size: 14px;
+}
+.contact input{
+	width: 265px;
+    margin: 3px 0px;
+    margin-left: 5px;
+    border: 1px solid #9C9C9C;
+    font-size: 14px;
+}
+
+.butStrana{
+	width: 100%;
+	margin-left: 5px;
+}
+.butStrana #but{
+	margin: 4px auto;
+    display: inline-block;
+    padding: 6px 40px;
+    color: #5A5A5A;
+    background: #EFEFEF;
+    cursor: pointer;
+    font-size: 14px;
+}
+.butStrana .active{
+	background: #54a5b2 !important;
+    color: #fff !important;
+}
+
+.info{
+	
+    padding: 6px 6px;
+    padding-top: 15px;
+    background: white;
+}
+
+.info .infoType{
+	border: 1px solid #AFAFAF;
+    height: 109px;
+    color: black;
+    font-size: 14px;
+} 
+
+.delivery{
+	background:white;
+	padding: 10px 10px;
+}
+
+.delivery .tab-right{
+	text-align: right;
+   	color: #565656;
+    width: 130px;
+    font-size: 13px;
+}
+
+.delivery input{
+	margin: 3px 0px;
+    margin-left: 10px;
+    width: 290px;
+}
+.delivery select{
+    margin: 5px 0px;
+    margin-left: 10px;
+    width: 298px;
+    background: white;
+    color: #969696;
+    height: 23px;
+}
+
+.delivery2{
+	background:white;
+	padding: 10px 10px;
+}
+
+.delivery2 .tab-right{
+	text-align: right;
+    color: #676666;
+    width: 130px;
+}
+
+.delivery2 input{
+	margin: 3px 0px;
+    margin-left: 10px;
+    width: 50px;
+}
+.delivery2 .selDelivery{
+    margin: 5px 0px;
+    margin-left: 10px;
+    width: 298px;
+    background: white;
+    color: #969696;
+}
+.delivery2 .skidka{
+	margin: 5px 0px;
+    margin-left: 10px;
+    background: white;
+    color: #969696;
+}
+
+.bonus {
+	background: white !important;
+}
+.bonus table{
+	border-collapse: collapse;
+}
+.bonus th{
+	color: #54a5b2;
+    font-weight: bold;
+    font-size: 14px;
+    background: #EAEAEA;
+    padding: 3px 0px;
+}
+.bonus tr:nth-child(2) td{
+	padding-top: 8px;
+}
+.bonus td:last-child{
+	padding-right: 11px;
+}
+.bonus td:first-child{
+	color: #565656;
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.bonus td{
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.bonus select{
+	background-color: white;
+	color: gray;
+	margin-top: -5px;
+    height: 23px;
+}
+.bonus input{
+	border: 1px solid #ABABAB;
+}
+.bonus .inputConditional, .bonus .selectConditional {
+	width: 88px;
+}
+.bonus .selectBonus{
+	width: 115px;
+}
+.bonus .inputBonus{
+
+}
+
+
+.butWS{
+	background: gray;
+  	padding: 7px;
+  	margin-bottom: 5px;
+  	cursor: pointer;
+}
+
+.butWStd{
+	vertical-align: top !important;
+}
+
+.changeLine{
+	color: black;
+	position: absolute;
+}
+.changeLine button{
+	position: absolute;
+  	left: 3px;
+  	width: 25px;
+  	height: 25px;
+  	font-size: 22px;
+}
+
+.changeLineBut{
+	border: 1px solid #A7A7A7;
+  	background: #EAEAEA;
+  	font-size: 15px;
+  	padding: 6px 17px;
+  	margin: 0px 3px;
+  	cursor: pointer;
+  	margin-bottom: -1px;
+}
+.changeLine .active{
+  	background: white;
+  	z-index: 1;
+  	padding-bottom: 10px;
+  	border-bottom: 0px solid;
+}
+
+.changeLine i{
+	position: absolute;
+    top: 0px;
+    right: 6px;
+    cursor: pointer;
+}
+.changeLine i:hover{
+	color: red;
+}
+
+
+.icon_clip_will{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 20px;
+						    height: 19px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -31px -32px;
+						    margin-top: 1px;
+							 margin-bottom: 1px;
+						}
+						.icon_clip_was{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						   	width: 25px;
+						    height: 23px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    /*background-position: -69px -67px;*/
+						    background-position: -55px -41px;
+						}
+						.icon_file_upload{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 30px;
+						    height: 42px;
+						    background-size: 1025px 1222px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -697px -565px;
+						    float: left;
+						    margin-right: 5px;
+						    margin-top: -10px;
+						}
+						.see_file{
+							border: 1px solid gray;
+						    margin: 3px;
+						    text-align: center;
+						}
+						.name_file{
+							border:1px solid #B7B7B7;
+							 width: 300px;
+						    position: absolute;
+						    right: 6px;
+						    top: 9px;
+						    
+
+						}
+						.name_file::after, .name_file::before{
+							 content: '';
+						    position: absolute;
+						    left: 30px;
+						    top: -20px;
+						    border: 10px solid transparent;
+						    border-bottom: 10px solid gray;
+						}
+						.name_file::after{
+							border-bottom: 10px solid white;
+						   top: -19px;
+						}
+
+						.name_file2{
+						    border:1px solid #B7B7B7;
+						    width: 300px;
+						    /*position: absolute;*/
+						    right: 6px;
+						    top: 9px;
+						    
+
+						}
+						.name_file2::after, .name_file2::before{
+						     content: '';
+						    position: absolute;
+						    left: 30px;
+						    top: -20px;
+						    border: 10px solid transparent;
+						    border-bottom: 10px solid gray;
+						}
+						.name_file2::after{
+						    border-bottom: 10px solid white;
+						   top: -19px;
+						}
+							
+						.show_file{
+							 border: 2px solid #203775;
+						    margin-left: auto;
+						    margin-right: auto;
+						    background: white;
+						    /*width: 615px;	*/
+						    position: relative;
+						    display: inline-block;
+						}
+						/*.any_file{
+							
+						    cursor: pointer;
+						    position: relative;
+						    margin: 20px;
+						    width: 137px;
+						    font-size: 13px;
+						    font-weight: bold;
+						    padding: 6px;
+						    color: #464646;
+						}*/
+						.any_file{
+	
+						    cursor: pointer;
+						    position: relative;
+						    margin: 20px;
+						    margin-bottom: 2px;
+						    width: 137px;
+						    font-size: 13px;
+						    font-weight: bold;
+						    padding: 6px;
+						    color: #464646;
+						}
+						.delete_file{
+						    color: red;
+						    font-size: 15px;
+						    font-weight: bold;
+						    margin-bottom: 8px;
+						    text-align: left;
+						    padding-left: 25px;
+						    cursor: pointer;
+						}
+						.delete_file i{
+						    padding-right: 4px;
+						}
+						/*.kyt_up{
+							 border-bottom: 9px solid blue;
+						    border-left: 9px solid transparent;
+						    border-right: 9px solid transparent;
+						    right: 99px;
+						    position: absolute;
+						    top: 2px;
+						    z-index: 1;
+						}*/
+						.any_file .upload{
+							 position: absolute;
+						    top: 0;
+						    left: 0;
+						    width: 111px;
+						    height: 40px;
+						    cursor: pointer;
+						    opacity: 0;
+						}
+						.body_upload{
+							 position: fixed;
+						    width: 100%;
+						    height: 100%;
+						    background: rgba(58, 58, 58, 0.42);
+						    z-index: 5;
+						    top: 0;
+						    left: 0;
+						    display: table;
+						}
+						.bbb2{
+							display: table-cell;
+							vertical-align: middle;
+							text-align: center;
+						}
+						#uupp{
+							background: gray;
+							padding: 2px;
+						   margin-left: 40px;
+						   margin-right: 40px;	
+						   cursor: pointer;
+						   position: relative;
+						   overflow: hidden;
+						}
+						#uupp .upload{
+							position: absolute;
+							top: 0px;
+							right: 0px;
+							width: 100%;
+							left: 0px;
+							height: 100%;
+							opacity: 0;
+							cursor: pointer;
+						}
+						#uupp div{
+							background: gray;
+						   	text-align: center;
+						   	border: 2px solid white;
+						   	padding: 16px;
+						   	font-size: 14px;
+						   	color: white;
+						}
+						.wind_upload{	
+							width: 350px;
+						  	border: 2px solid #203775;
+						    margin: 50px auto;
+						   	background: white;
+						   	position: relative;
+						}
+						.close_upload{
+							position: absolute;
+							right: -26px;
+
+						}
+						.wind_upload div:nth-child(2){
+							font-size: 15px;
+						    font-weight: bold;
+						    width: 100%;
+						    text-align: center;
+						    color: #203775;
+						    margin-top: 10px;
+						}
+						/*.wind_upload div:nth-child(3){
+							text-align: center;
+						    font-weight: bold;
+						    background: #ECECEC;
+						    margin: 12px;
+						    padding: 3px;
+						}*/
+						.wind_upload div:last-child{
+							color: #656565;
+						    background: #ECECEC;
+						    margin: 9px;
+						    padding: 5px;
+						}
+
+						.wind_upload .names{
+						    text-align: center;
+						    font-weight: bold;
+						    background: #ECECEC;
+						    margin: 12px;
+						    padding: 3px;
+						}

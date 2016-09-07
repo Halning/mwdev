@@ -1,0 +1,176 @@
+.online_body, .upload_body{
+					width: 100%;
+					position: fixed;
+					background: rgba(0, 0, 0, 0.49);
+					margin-left: -180px;
+					margin-top: -73px;
+					z-index: 10;
+					height: 100%;
+				}
+				.up_window{
+					width:300px;
+					background: white;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 10%;
+					padding: 30px;
+				}
+				.online_chat{
+					width: 850px;
+					background: #EFEFEF;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 3%;
+				}
+				.tab_chat{
+					width:100%;
+					background: white;
+					border: 1px solid #CCC;
+					border-collapse: collapse;
+				}
+				.tab_chat th{
+					border: 1px solid #CCC;
+					background: rgba(215, 215, 215, 0.42);
+					font-size: 15px;
+					padding: 5px;
+				}
+				.tab_chat td{
+					border: 1px solid #CCC;
+					padding: 5px;
+					font-size: 14px;
+				}
+				.tab_chat .m_tr:hover{
+					background: rgba(215, 215, 215, 0.42);
+					cursor: pointer;
+				}
+				.close_online, .client_on{
+					cursor: pointer;
+				}
+				.title_chat{
+					font-size:30px;
+					text-align: center;
+					margin-left: 50px;
+				}
+				.write_on{
+					width: 100%;
+					resize: none;
+					margin-left: -1px;
+					border: 1px solid grey;
+					height: 65px;
+				}
+				.read_on{
+					background: white;
+					width: 100%;
+					height: 385px;
+					overflow: auto;
+					border: 1px solid grey;
+					margin-bottom: 12px;
+					margin-left: -1px;
+				}	
+				.cli_name{
+					font-size: 17px;
+					font-weight: bold;
+					margin: 7px;
+					margin-top: 13px;
+					padding: 10px;
+				}
+				.butt{
+					border: 1px solid grey;
+					padding: 4px;
+					margin: 3px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+				}
+				.avatar{
+					width: 60px;
+					margin-right: -25px;
+				}
+				.cli_c{
+					/*vertical-align: top;*/
+					color: #066D96;
+				}
+				.rig_a{
+					vertical-align: top;
+					width: 400px;
+					color: black;
+				}
+				.left_a{
+					vertical-align: top;
+					width: 1px;
+				}
+				.tab_on {
+					width: 99%;
+					border-collapse: collapse;
+					margin: 3px;
+					margin-top: 1px;
+				}
+				.tab_on td{
+					border-bottom: 1px solid #DBDBDB;
+					padding-top: 3px;
+					padding-bottom: 3px;
+				}
+				.c_bold{
+					font-weight: bold;
+				}
+				.date_c{
+					float: right;
+					color: grey;
+					font-size: 10px;
+				}
+				.close_online{
+					float: right;
+					margin: 2px;
+					margin-right: 6px;
+				}
+				#co_name, #co_text{
+					width: 300px;
+					border: 1px solid;
+				}
+				.mid_v{
+					text-align: center;
+					vertical-align: middle;
+				}
+				.o_name{
+					color: #355177;
+					font-weight: bold;
+				}
+				.o_date{
+					color: gray;
+					font-size: 10px;
+					float: right;
+				}
+				.av_photo{
+					border: 2px solid #808080;
+					width: 130px;
+					height: 130px;
+					text-align: center;
+					vertical-align: middle;
+					margin-left: 15px;
+					background: white;
+					font-size: 29px;
+					color: #B0B0B0;
+					border-radius: 4px;
+				}
+				.av_name{
+					border: 1px solid #CCC;
+					/*padding: 3px;
+					margin: 1px;*/
+					cursor: pointer;
+					padding: 5px 7px 3px;
+					color: #929292;
+				}
+				.online_status{
+					/*border: 2px solid blue;*/
+					border-top: 1px solid #CCC;
+					border-left: 1px solid #CCC;
+					border-right: 1px solid #CCC;
+					padding-top: 6px;
+    				border-top: 0px none;
+					color: #366AB8;
+					font-weight: bold;
+					background: #F0F0F0;
+				}
+				.tab_chat #delchat{
+					text-align: center;
+					vertical-align:middle;
+				}

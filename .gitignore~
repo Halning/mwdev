@@ -1,0 +1,68 @@
+#========== project
+www/my_cookies.txt
+www/uploads/*
+www/yml.php
+www/vendor.zip
+
+#========== images
+www/images/commodities/[0-9]*/
+
+#========== cache
+www/cache/static/main-menu.html
+www/cache/static/global*
+www/cache/static/currency*
+www/cache/static/products/*
+!www/cache/static/products/ignore.txt
+www/cache/static/slider*
+
+#========== parser
+www/parser/reports/*
+!www/parser/reports/ignore.txt
+www/parser/uploads/*
+!www/parser/uploads/ignore.txt
+
+#========== uploads
+www/uploads/*
+!www/uploads/ignore.txt
+
+#========== other
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+www/vendor
+# cubrid install dir
+/cubrid
+
+# composer itself is not needed
+#composer.phar
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed
+composer.lock
+composer-extra-assets.lock
+
+#npm files
+www/node_modules
+
+#bower
+.bowerrc
+bower.json
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml

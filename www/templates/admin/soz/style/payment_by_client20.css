@@ -1,0 +1,618 @@
+.payment_client{
+                            border: 1px solid black;
+                            border-collapse: collapse;
+                            border-bottom: 1px solid #ccc; 
+                        }
+                        .payment_client td{
+                            padding: 0px;
+                            padding-top: 2px;
+                            padding-bottom: 0px;
+                            border-left: 0px solid;
+                        }
+                        .payment_client td:nth-child(1) {
+                            border-right: 1px solid #CCC;
+                            border-left: 1px solid #CCC;
+                        }
+                        .payment_client td:nth-child(2) {
+                            padding-left: 2px;
+                        }
+                        .payment_client td:last-child {
+                            padding-right: 2px;
+                            border-right: 1px solid #CCC;
+                        }
+                        .payment_client .hdiv{
+                            display: table;
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .payment_client td:first-child .hdiv, table td:last-child .hdiv{
+                            background: white;
+                        }
+                        .payment_client .hdiv .hdiv2{
+                            background: #2B7C98;
+                            padding: 5px;
+                            color: white;
+                            font-weight: bold;
+                            font-size: 13px;    
+                        }
+                        .payment_client td:nth-child(2) .hdiv .hdiv2{
+                            border-bottom-left-radius: 10px;
+                            border-top-left-radius: 10px;
+                        }
+                        .payment_client td:last-child .hdiv .hdiv2{
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 10px; 
+                        }
+                        .payment_client .hdiv .hdiv2{
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                        .payment_client .tab_down td:nth-child(2) .hdiv .hdiv2{
+                            border-bottom-left-radius: 0px;
+                            /*border-top-left-radius: 10px;*/
+                        }
+                        .payment_client .tab_down td:last-child .hdiv .hdiv2{
+                            border-bottom-right-radius: 0px;
+                            /*border-top-right-radius: 10px; */
+                        }
+						.back_icon{
+							/*background: #313131;*/
+							width: 30px;
+						    height: 40px;
+						    padding: 5px;	
+						    margin: 4px;
+						 	border-radius: 2px;
+						 	background: rgba(153,151,153,1);
+background: -moz-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,151,153,1)), color-stop(50%, rgba(61,61,61,1)), color-stop(54%, rgba(61,61,61,1)), color-stop(58%, rgba(49,49,49,1)), color-stop(64%, rgba(49,49,49,1)), color-stop(71%, rgba(49,49,49,1)), color-stop(100%, rgba(49,49,49,1)));
+background: -webkit-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -o-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -ms-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: linear-gradient(to bottom, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999799', endColorstr='#313131', GradientType=0 );}
+						.left_icon{
+							 display:table;
+							 position: absolute;
+						    right: 5px;
+						    margin-top: -60px;
+						}
+						.table_line2_gr{
+							border: 2px solid black;
+							margin-left: 20px;
+							background: white none repeat scroll 0% 0%;
+							display: inline-block;
+						}
+						.table_line2_white{
+							/* background: white;
+						    width: 100%;
+						    padding: 2px;*/
+						}
+						.tab_info{
+							
+    						border-collapse: collapse;
+    						border: 1px solid white;
+    						margin: 3px;
+						}
+						.tab_info td{vertical-align: middle;}
+						.tab_info td:nth-child(1){
+							padding: 2px;
+						    padding-left: 8px;
+						    padding-right: 8px;
+						    color: white;
+    						background: #313131;
+    						font-weight: bold;
+						}
+						
+						.tab_info td:nth-child(2), .tab_info td:nth-child(3), .tab_info td:nth-child(4){
+							 padding: 2px;
+						    padding-left: 10px;
+						    padding-right: 10px;
+						    background: white;
+						    text-align: center;
+						    color:#313131;
+						    border: 1px solid #313131;
+    						 /*border-left: 1px solid #313131;*/
+    						font-weight:bold;
+						}
+						.client_line{
+							background:#2B7C98;
+							color:white;
+							width:100%;
+							font-size: 13px;
+							padding: 5px;
+							font-weight: bold;
+							display:table;
+						}
+						.table_line{
+							border: 2px solid #2B7C98;
+						}
+						.table_line td{
+							border-left: 1px solid #CCC;
+							vertical-align: middle;
+							padding-left: 3px;
+    						padding-right: 3px;
+						}
+						.tab_up{
+							border-radius: 7px;
+						}
+						.tab_down{
+							border-top-left-radius: 7px;
+							border-top-right-radius: 7px;
+						}
+						.tab_td{
+							display:table-cell;
+							padding: 3px;
+						}
+						.tab_td2{
+							display:table-cell;
+						}
+						.cli_open{
+							width:10px;
+							cursor:pointer;
+							
+						}
+						.cli_cod{
+							width: 48px;
+						}
+						.cli_date{
+							width: 129px;
+						}
+						.cli_id{
+							width: 33px;
+						}
+						.cli_status{
+							width: 145px;
+						}
+						.cli_name{
+							width: 140px;
+						}
+						.cli_count{
+							width: 5%;
+						}
+						.cli_summa{
+							width:8%;
+							text-decoration: underline;
+						}
+						.cli_cont{
+							width:5%;
+							cursor:pointer;
+						}
+						.cli_xls{
+							width:5%;
+						}
+						.cli_chat{
+							width:8%;
+						}
+						.cli_check{
+							
+						}
+						.cli_info{
+							width: 210px;
+							position: absolute;
+							top: 30px;
+    						right: 5px;
+							color: black;
+							background: white;
+							z-index:100;
+							border-bottom: 2px solid #2B7C98;
+							border-right: 2px solid #2B7C98;
+							border-left: 2px solid #2B7C98;
+							border-bottom-left-radius: 7px;
+							border-bottom-right-radius: 7px;
+							font-size: 11px;
+							box-shadow: 0px 7px 10px black;
+							padding-bottom: 3px;
+						}
+						.cli_info .info_td{
+							color:#2B7C98;
+							text-align: right;
+						}
+						.cli_info table{
+							border-collapse: collapse;
+						}
+						.cli_info table tr:nth-child(even){
+							background: rgb(224, 224, 224);
+						}
+						.cli_info table tr td{
+							border: 0px solid;
+						}
+						.block_up{
+							border-bottom: 8px solid white;
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_down{
+							border-top: 8px solid white;
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_up1{
+							border-bottom: 5px solid #2B7C98;
+							border-left: 3px solid transparent;
+							border-right: 3px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_down1{
+							border-top: 5px solid white;
+							border-left: 3px solid transparent;
+							border-right: 3px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_down1_orange {
+						  	border-top: 5px solid rgb(248, 106, 5);
+						  	border-left: 3px solid transparent;
+						  	border-right: 3px solid transparent;
+						  	width: 0px;
+						  	height: 0px;
+						}
+						.bcc{
+							position: absolute;
+							margin-top: 10px;
+							margin-left: 2px;
+						}
+						.bcc1{
+							position: absolute;
+							margin-top: -11px;
+							margin-left: -2px;
+						}
+						.icon_xls{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 17px;
+							height: 19px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -311px -250px;
+						}
+						.icon_cont{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 12px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -200px -232px;
+						}
+						.icon_cont1{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 12px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -246px -232px;
+						}
+						.icon_chat{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 19px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -312px -315px;
+						}
+						.icon_send{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 23px;
+							height: 18px;
+							background-size: 594px 648px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -209px -387px;
+							float: left;
+						}
+						.icon_sent2{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							 width: 23px;
+						    height: 18px;
+						    background-size: 594px 692px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -209px -387px;
+							float: left;
+						}
+						.icon_sent{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 23px;
+							height: 18px;
+							background-size: 594px 692px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -240px -386px;
+							float: left;	
+						}
+						.icon_calc{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 30px;
+						    height: 41px;
+						    background-size: 870px 1191px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -608px -808px;
+						}
+						.icon_info{
+							 background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 36px;
+						    height: 39px;
+						    background-size: 920px 1146px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -516px -808px;	
+						    cursor:pointer;
+						}
+						.icon_calendar{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 22px;
+						    height: 19px;
+						    background-size: 600px 577px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -115px -137px;
+						}
+						.icon_addrow{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 19px;
+						    height: 19px;
+						    background-size: 480px 558px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -148px -78px;
+						    /*float: left;*/
+						}
+						.icon_close{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 18px;
+						    height: 17px;
+						    background-size: 439px 528px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -361px -345px;
+						    cursor: pointer;
+
+						    position: absolute;
+			    			right: -24px;
+			    			top: 0px;
+						}
+						.topDiv{
+							position: relative;
+						}
+						.icon_info_white {
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 23px;
+						    height: 23px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -49px -133px;
+						    margin-top: 3px;
+						}
+						.icon_info_blue {
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 23px;
+						    height: 23px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -22px -133px;
+						    margin-top: 3px;
+						}
+						.icon_info_orange{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+  	width: 23px;
+  	height: 23px;
+  	background-size: 281px 298px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: -22px -160px;
+}
+.wind_names{
+	position: absolute;
+    background: white;
+    color: black;
+    font-size: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 2px solid #00455c;
+    border-right: 2px solid #00455c;
+    border-bottom: 2px solid #00455c;
+    box-shadow: 0px 4px 7px black;
+    margin-top: 15px;	
+    margin-left: -2px;
+    z-index: 10;
+    overflow: hidden;
+    /*max-height: 0px;*/
+}
+.wind_names table{
+	border-collapse: collapse;	
+}
+.wind_names table td{
+	border: 0px solid;
+}
+.wind_names table tr:nth-child(even){
+	background:#E8E8E8;
+}
+.wind_names table td:nth-child(1){text-align:right;}
+.wind_names table td:nth-child(2){font-weight: normal;}
+.close_backg {
+    background: white;
+    color: #484EC9;
+    padding-bottom: 0px;
+}
+						.rekvizit{
+						    position: fixed;
+						    width: 100%;
+						    height: 100%;
+						    background: rgba(128, 128, 128, 0.37);
+						    top: 0;
+						    left: 0;
+						    z-index: 10;
+						}
+						.line_rek{
+						    background: white;
+						    width: 456px;
+						    margin: auto;
+						    margin-top: 7%;
+						    border: 2px solid;
+						    padding: 7px;
+						    position: relative;
+						    padding-top: 15px;
+    						padding-bottom: 15px;
+						}
+						.line_rek .add_row{
+						    background: gray;
+						    font-size: 12px;
+						    font-weight: bold;
+						    color: white;
+						    text-align: center;
+						    padding: 4px;
+						    border-radius: 10px;
+						    cursor: pointer;
+						    width: 160px;
+						}
+						.line_rek .rek_n{
+						    text-align: center;
+						    font-size: 15px;
+						    font-weight: bold;
+						    color: black;
+						    vertical-align: middle;
+						}
+						.line_rek .close_rek{
+						    position: absolute;
+						    right: -30px;
+						    top: -10px;
+						}
+						.tab_rez td:nth-child(1){
+						    width: 10px;
+						    vertical-align: middle;
+						}
+						.tab_rez td:nth-child(2){
+						    background: #54A5B2;
+						    text-align: center;
+						    color: white;
+						    margin: 2px;
+						    padding: 3px;
+						    font-weight: bold;
+						    width: 160px;
+						    vertical-align: middle;
+						}
+						.tab_rez td:nth-child(3){
+						    background: rgba(204, 204, 204, 0.46);
+						    color: #4C4C4C;
+						    margin: 2px;
+						    padding: 2px;
+						    vertical-align: middle;
+						    /*font-weight: bold;*/
+						}
+
+						.bor_xls{
+							/*position: absolute;
+			  				margin-top: 0px;*/
+						}
+						.bor_chat{
+							position: absolute;
+			  				margin-top: 2px;
+						}
+						.go_href{
+							cursor:pointer;	
+						}
+						.bor_info{
+							background: white none repeat scroll 0% 0%;
+							width: 27px;
+							padding: 4px 4px 14px;
+							margin-top: -4px;
+    						margin-left: -2px;
+    						top: 3px;
+						}
+			
+			/*For mail*/
+				#xls{
+					color:white;
+					
+				}
+				.pay{
+					background: #355177;
+					padding: 5px;
+					color: white;				
+				}
+				#pay_body{
+					position: fixed;
+					top:0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					/*margin-left: -180px;
+					margin-top: -73px;*/
+					background: rgba(0, 0, 0, 0.61);
+					z-index: 5;
+					overflow: auto;
+				}
+				#pay_mail{
+					background: white none repeat scroll 0% 0%;
+					width: 850px;
+					margin: 15px auto;
+					position: relative;
+				}
+				.html_mail{
+					margin: 8px;
+					padding: 3px;
+				}
+				label{
+					display:inline-block;
+					width: 50px;
+					margin-left: 8px;
+				}
+				.in_text{width:500px}
+				.sent_order {
+				    position: absolute;
+				    background: #0078FF;
+				    color: white;
+				    font-size: 16px;
+				    font-weight: bold;
+				    padding: 7px;
+				    padding-left: 30px;
+				    padding-right: 30px;
+				    border-radius: 3px;
+				    cursor: pointer;
+				    bottom: 10px;
+				    right: 20px;
+				}
+				.pay_close2{
+				    position: absolute;
+				    left: 25px;
+				    bottom: 10px;
+				    padding: 5px;
+				}
+
+@-moz-document url-prefix() { 
+	.cli_info{
+		margin-top: 14px;
+	}
+	.bor_xls{
+		/*position: absolute;
+		margin-top: -15px;*/
+	}
+	.bor_chat{
+		position: absolute;
+		margin-top: -13px;
+	}
+	.bor_info{
+		background: white none repeat scroll 0% 0%;
+		display: inline-block;
+		width: 31px;
+		position: absolute;
+		margin-left: -16px;
+		padding: 3px 1px 12px 3px;
+	}
+	.cli_info{
+		margin-left: -180px;
+	}
+	.tab_center_th th{
+		text-align: center;							
+	}
+}

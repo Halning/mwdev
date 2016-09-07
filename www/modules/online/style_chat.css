@@ -1,0 +1,135 @@
+		
+.interface_chat .body_chat{
+
+    position: fixed;
+    display: none;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    width: 470px;
+    height: 343px;
+    background: #DEDEDE;
+    z-index: 220;
+}
+.interface_chat .title_chat{
+    background: #54A5B2;
+    color: #ffffff;
+    width: 469px;
+    height: 28px;
+    padding: 3px;
+    margin-left: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+    /*display: table;*/
+}
+.interface_chat .title_chat2{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.interface_chat .title_img{
+    width: 23px;
+    border-radius: 20px;
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+.interface_chat .read_chat{
+    /*border: 1px solid red;*/
+    background: #FFFFFF;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    font-size: 14px;
+}
+.interface_chat .write_txt{
+    width: 469px;
+    height: 55px;
+    resize: none;
+    border: 1px solid #A1A1A1;
+    /*margin-bottom: 18px;*/
+    margin-left: -1px;
+    padding: 4px;
+    color: gray;
+}
+.interface_chat .write_chat{
+    margin-bottom: 18px;
+}
+.interface_chat .but_send{
+    border: 1px solid #A1A1A1;
+    float: right;
+    margin: 4px;
+    padding: 3px;
+    font-size: 12px;
+}
+.interface_chat .close_chat{
+    width: 21px;
+    cursor: pointer;
+    float: right;
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+.interface_chat .icon_img{
+    width: 16px;
+    margin: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.interface_chat .emoji_smile_icon {
+    width: 24px;
+    height: 24px;
+    background: transparent url("/images/im_smile_cross.png?3") no-repeat scroll 0px -24px;
+    transform: rotate(0deg);
+}
+.interface_chat .avatar{
+    width: 60px;
+    margin-right: 4px;
+}
+.interface_chat .cli_c{
+    /*vertical-align: top;*/
+    color: #54A5B2;
+}
+.interface_chat .rig_a{
+    vertical-align: top;
+    width: 400px;
+}
+.interface_chat .left_a{
+    vertical-align: top;
+}
+.interface_chat table{
+    width: 99%;
+    border-collapse: collapse;
+    margin: 3px;
+    margin-top: 1px;
+}
+.interface_chat table td{
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 3px;
+}
+.interface_chat .date_c{
+    float: right;
+    color: grey;
+    font-size: 10px;
+}
+.interface_chat .see{
+    background: #54A5B2;
+    color: white;
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.interface_chat .name_chat{
+    color: grey;
+    width: 469px;
+    border: 1px solid rgba(128, 128, 128, 0.71);
+    margin-left: -1px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+
+
+

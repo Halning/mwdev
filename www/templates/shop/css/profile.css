@@ -1,0 +1,1322 @@
+/*profile.main*/
+/*.profile-container .content_block article {
+    width:420px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    text-align: center;
+}
+.profile-container .table-bordered th {
+    padding: 4px 0;
+
+}
+
+.profile-container .table-bordered td {
+    padding: 0 18px;
+    padding-left: 20px;
+    border: 1px solid #ccc !important;
+}*/
+
+/*GLAVNAJA KLIENTA
+.profile-container .glavnaja {
+    padding: 5px 0;
+}
+.profile-container .glavnaja .input_block {
+    margin: 3px 0 !important;
+}
+.profile-container .glavnaja .input_block input {
+    padding: 0px;
+}
+.profile-container .glavnaja .inform, 
+.profile-container .glavnaja .avatar {
+    min-height: 75px;
+}
+.profile-container .glavnaja .avatar {
+    width: 120px;
+    margin: 3px 4px 5px;
+}
+.profile-container .glavnaja article:nth-child(2) .inform {
+    width: 350px;
+}
+.profile-container .glavnaja .inform_block {
+    padding: 2px 0;
+}
+
+.profile-container .glavnaja article:nth-child(2) {
+    width: 51%;
+    float: left;
+    margin-left: 5px;
+}
+
+.profile-container .glavnaja article:nth-child(3) {
+    width: 44%;
+    float: right;
+}
+
+.profile-container .glavnaja article:nth-child(3) .inform {
+    width: 100%;
+}
+
+.profile-container .inform_block a {
+    display: inline-block;
+    border-radius: 20px;
+    margin: 8px 8px;
+    border:1px solid #cccccc;
+    vertical-align: top;
+    padding-right:10px;
+    text-align: center;
+}
+
+.profile-container .inform_block a b, 
+.profile-container .inform_block a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-container .inform_block a b i {
+    color:#74c7d5;
+    font-size: 9px;
+    font-style: normal;
+    line-height: 13px;
+    display: none;
+}
+
+.profile-container .inform_block a b {
+    margin-left: 5px;
+    font-size: 10px !important;
+    line-height: 15px;
+    color:#666666;
+}
+
+.profile-container .white-color {
+    border-right: 1px solid #cccccc !important;
+    background: rgba(255,255,255,1) !important;
+}
+
+.profile-container .bg-color {
+    background-color: #f5f5f5;
+}
+
+.profile-container .border {
+    border: 1px solid #cccccc;
+}
+
+.profile-container .active-1 {
+    display: block;
+}
+
+.profile-container .disable {
+    display: none;
+}
+
+.profile-container .opacity-0 {
+    opacity: 0;
+}
+
+.profile-container .opacity-1 {
+    opacity: 1;
+}
+
+.profile-container .opacity-2 {
+    opacity: 0.2;
+}
+
+.profile-container .inform_block a:hover {
+    background: #f7f7f6;
+}
+
+.profile-container .table {
+    margin-top: 30px;
+}
+
+.profile-container .table .full {
+    margin: 0;
+    font-size: 0;
+}
+
+.profile-container .table .full {
+    width: 100%;
+    margin: 0;
+}
+
+.profile-container .full .inform {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.profile-container .gray {
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    -webkit-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(99%, rgba(228,228,228,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    margin-bottom: 2px;
+}
+
+.profile-container .items {
+    display: inline-block;
+    border-right: 1px solid #dfdfdf;
+    width: 150px;
+    -webkit-width: 155px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+    color:#666666;
+    line-height: 38px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(99%, rgba(228,228,228,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.profile-container .items:first-child {
+    width: 35px;
+    cursor: pointer;
+}
+
+.profile-container .glavnaja p:first-child {
+    text-align: left;
+}
+
+.profile-container p span {
+    color:#51a3af;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width:100px;
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.profile-container .items:last-child {
+    border-right: transparent;
+    color:#4895a3;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.profile-container .item_hov {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(99%, rgba(228,228,228,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 99%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    position: relative;
+    padding-left: 10px !important;
+}
+
+.profile-container .slider-text {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.profile-container .hide_hov_border {
+    border:1px solid #cccccc;
+}
+
+.profile-container .hide_hov {
+    position: absolute;
+    background-color: #fff;
+    width: 220px;
+    text-align: left;
+    padding: 5px 5px;
+    display: none;
+    z-index: 3;
+    margin-top: -5px;
+    margin-left: -11px !important;
+    border:1px solid #cccccc;
+    border-top: none
+}
+
+.profile-container .hide_hov i {
+    display: block;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 3px 10px;
+    color:#666666;
+    font-style: normal;
+}
+
+.profile-container .send-person {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.profile-container .hide_hov i:nth-child(2n+1) {
+    background-color: #fafafa;
+}
+
+.profile-container .hide_hov i span {
+    margin-right:10px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.profile-container .item_hov img {
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.profile-container .hide_hov:hover .item_hov {
+    background: #fff;
+}
+
+.profile-container .hide-product {
+    display: none;
+}
+
+.profile-container .item_hov {
+    width: 186px !important;
+    padding: 0 0px;
+}
+
+.profile-container .item_hov:hover {
+    background: #e5e5e5;
+}
+
+.profile-container .first-litter {
+    text-transform: uppercase !important;
+}
+
+.profile-container .see-more-2 {
+    display: none;
+}
+
+.profile-container .see-more-link img {
+    cursor: pointer;
+}
+
+.profile-container .see-more-link p:hover {
+    color: #98deef;
+}
+
+.profile-container .see-more-link p {
+    font-size: 14px;
+    font-family: 'Century Gothic'; 
+    text-align: left;
+    height: 15px;
+    color: #4895a3;
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 5px;
+    line-height: 32px;
+    font-weight: bold;
+    display: inline;
+    cursor: pointer;
+}
+.profile-container .see-more-link {
+    text-align: left;
+}
+.profile-container .descriptions {
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-container table {
+    font-size:12px;
+    width: 100%;
+    color:#000;
+}
+.profile-container .rte {
+    position: relative;
+}
+.profile-container .rte th {
+    background: #88becb;
+    font-size: 12px;
+    color:#fff;
+    font-weight: bold;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc
+}
+.profile-container .rte td {
+    border:1px solid #cccccc;
+    border-bottom:1px solid transparent; 
+    background: #fff;
+}
+.profile-container .rte-2 th {
+    background: #88becb;
+    font-size: 12px;
+    color:#fff;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc
+}
+.profile-container .rte-2 td {
+    border:1px solid #cccccc;
+    border-bottom:1px solid transparent; 
+    background: #fff;
+}
+.profile-container .sliders {
+    height: 374px;
+    margin: 30px auto;
+    text-align: center;
+}
+.profile-container .content.sliders .content_block.glavnaja article:first-child {
+    float: left;
+}
+.profile-container .sliders article .inform {
+    width: 475px !important;
+}
+.profile-container .sliders article {
+    width: 485px !important;
+    margin: 3px;
+}
+.profile-container .slick-slider {
+    margin: 10px 0 !important;
+}
+.profile-container .slick-active {
+    outline: none !important;
+}
+.profile-container .slide_cnt {
+    display: block;
+    border:1px solid #cccccc;
+    padding: 2px;
+    margin-left: 2px;
+}
+.profile-container .img_block {
+    width: 100%;
+    position: relative;
+}
+.profile-container .otzyv {
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    bottom:0;
+    left: 0;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+.profile-container .img_block img , .profile-container .img_block a {
+    width: 100%;
+}
+.profile-container .img_block a {
+    margin: 0;
+    border:none;
+    padding: 0;
+}
+.profile-container .desc_block {
+    border:1px solid #cccccc;
+    margin-top: 5px;
+    padding: 2px 5px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    color:#393939;
+}
+.profile-container .desc_block b {
+    padding-top: 1px;
+    display: block;
+    width: 100%;
+    margin: 2px 0 ;
+}
+.profile-container .desc_block b:first-child {
+    color:#15697c;
+    font-size: 13px;
+    line-height: 13px;
+}
+.profile-container .slider-title {
+    padding-top: 10px !important;
+    padding-left: 40px !important;
+}
+.profile-container .slider-text {
+    padding-left: 5px !important;
+}
+.profile-container .slider_left .img_block img {
+    margin-right: 5px;
+    border:1px solid #ccc;
+}
+.profile-container .slick-next {
+    width: 30px !important;
+    height: 50px !important;
+}
+.profile-container .slick-arrow {
+    width: 40px !important;
+    height: 60px !important;
+}
+.profile-container .slick-arrow {
+    font-size: 10px;
+    opacity: 0 !important;
+    -webkit-transition: opacity 0.5s !important;
+    -moz-transition: opacity 0.5s !important;
+    -o-transition: opacity 0.5s !important;
+    transition: opacity 0.5s !important;
+}
+.profile-container .slider_left:hover .slick-arrow {
+    opacity: 1 !important;  
+}
+.profile-container .slider_right:hover .slick-arrow {
+    opacity: 1 !important;  
+}
+.profile-container .tab_content:hover .slick-arrow {
+    opacity: 1 !important;  
+}
+.profile-container .otzyv_left , .profile-container .brand_ab {
+    background: #88becb;
+    font-size: 23px;
+    line-height: 20px;
+    color:#fff;
+}
+.profile-container .brand_ab {
+    padding: 10px 0;
+    margin: 2px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.profile-container .otzyv_left b {
+    color:#fff;
+    text-decoration: line-through;
+    font-size: 13px;
+    line-height: 17px;
+    margin-right: 5px;
+}
+.profile-container .brand_name {
+    background: #7f7f7f;
+    color:#fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 4px 0;
+}
+.profile-container .brand_more:hover {
+    color:#88becb;
+    cursor: pointer;
+}
+.profile-container .brand_more:hover span {
+    color:#88becb;
+}
+.profile-container .brand_more span {
+    color:#000;
+    font-weight: bold;
+}
+.profile-container .brand_more {
+    margin: 2px 0;
+    text-align: center;
+    background: #f5f5f5;
+    color: #000;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 5px 0 6px;
+    font-weight: bold;
+}
+.profile-container .slide_cnt {
+    border:1px solid #ccc;
+    padding: 2px;
+    margin: 0 3px;
+    position: relative;
+}
+.profile-container .slide_cnt img {
+    width: 100%;
+    display: block;
+}
+.profile-container .slick-dots li button:before {
+    border:1px solid #59a7b3;
+    border-radius: 50% !important;
+    color:#fff !important;
+    opacity:1 !important;
+}
+.profile-container .slick-dots li.slick-active button::before {
+    color:#59a7b3 !important;
+    background-color: #59a7b3;
+}
+
+/*profile profile ruls*/
+/*profile watches ruls*/
+/*.profile-wishes-container, .profile-wishes-container div, .profile-wishes-container span, .profile-wishes-container applet, .profile-wishes-container object, .profile-wishes-container iframe,
+.profile-wishes-container h1, .profile-wishes-container h2, .profile-wishes-container h3, .profile-wishes-container h4, .profile-wishes-container h5, .profile-wishes-container h6, .profile-wishes-container p, .profile-wishes-container blockquote, .profile-wishes-container pre,
+.profile-wishes-container a, .profile-wishes-container abbr, .profile-wishes-container acronym, .profile-wishes-container address, .profile-wishes-container big, .profile-wishes-container cite, .profile-wishes-container code,
+.profile-wishes-container del, .profile-wishes-container dfn, .profile-wishes-container em, .profile-wishes-container img, .profile-wishes-container ins, .profile-wishes-container kbd, .profile-wishes-container q, .profile-wishes-container s, .profile-wishes-container samp,
+.profile-wishes-container small, .profile-wishes-container strike, .profile-wishes-container strong, .profile-wishes-container sub, .profile-wishes-container sup, .profile-wishes-container tt, .profile-wishes-container var,
+.profile-wishes-container b, .profile-wishes-container u, .profile-wishes-container i, .profile-wishes-container center,
+.profile-wishes-container dl, .profile-wishes-container dt, .profile-wishes-container dd, .profile-wishes-container ol, .profile-wishes-container ul, .profile-wishes-container li,
+.profile-wishes-container fieldset, .profile-wishes-container form, .profile-wishes-container label, .profile-wishes-container legend,
+.profile-wishes-container table, .profile-wishes-container caption, .profile-wishes-container tbody, .profile-wishes-container tfoot, .profile-wishes-container thead, .profile-wishes-container tr, .profile-wishes-container th, .profile-wishes-container td,
+.profile-wishes-container article, .profile-wishes-container aside, .profile-wishes-container canvas, .profile-wishes-container details, .profile-wishes-container embed, 
+.profile-wishes-container figure, .profile-wishes-container figcaption, .profile-wishes-container footer, .profile-wishes-container header, .profile-wishes-container hgroup, 
+.profile-wishes-container menu, .profile-wishes-container nav, .profile-wishes-container output, .profile-wishes-container ruby, .profile-wishes-container section, .profile-wishes-container summary,
+.profile-wishes-container time, .profile-wishes-container mark, .profile-wishes-container audio, .profile-wishes-container video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}*/
+
+.profile-watches-container {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+.profile-watches-container article, .profile-watches-container aside, .profile-watches-container details, .profile-watches-container figcaption, .profile-watches-container figure, 
+.profile-watches-container footer, .profile-watches-container header, .profile-watches-container hgroup, .profile-watches-container menu, .profile-watches-container nav, .profile-watches-container section {
+    display: block;
+}
+
+.profile-watches-container {
+    line-height: 1;
+    font: 100%/1.5em "PT Sans", Times, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.profile-watches-container ol, .profile-watches-container ul {
+    list-style: none;
+}
+
+.profile-watches-container a, .profile-watches-container a:hover{
+    text-decoration: none;
+}
+
+.profile-watches-container blockquote, .profile-watches-container q {
+    quotes: none;
+}
+
+.profile-watches-container .clearfix:before,
+.profile-watches-container .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.profile-watches-container .clearfix:after {
+    clear: both;
+}
+
+.profile-watches-container .left {
+    float: left;
+}
+
+.profile-watches-container .right {
+    float: right;
+}
+
+.profile-watches-container blockquote:before, .profile-watches-container blockquote:after,
+.profile-watches-container q:before, .profile-watches-container q:after {
+    content: '';
+    content: none;
+}
+
+.profile-watches-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Century Gothic'; /* Имя шрифта */
+    src: url(../fonts/CenturyGothic.ttf); /* Путь к файлу со шрифтом */
+}
+
+.profile-watches-container .observations-product {
+    min-height: 263px;
+    max-width: 485px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    -webkit-transition: box-shadow 0.3s !important;
+    -moz-transition: box-shadow 0.3s !important;
+    -o-transition: box-shadow 0.3s !important;
+    transition: box-shadow 0.3s !important;
+}
+
+.profile-watches-container .observations-product:hover {
+    -webkit-box-shadow: 0px 0px 25px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -8px rgba(0,0,0,0.75);
+}
+
+.profile-watches-container .product-img {
+    max-width: 200px;
+    padding: 3px;
+    padding-bottom: 0;
+}
+
+.profile-watches-container .girls {
+    width: 140px;
+    height: 235px;
+}
+
+/* здесь отключили стандартный checkbox */
+.profile-watches-container input[type="checkbox"] {
+    display: none;
+}
+
+.profile-watches-container input[type="checkbox"] + label {
+    display: block;
+    text-align: left;
+}
+
+/* здесь подключаем спрайт и выбираем нужный элемент */
+.profile-watches-container input[type="checkbox"] + label span {
+    position: absolute;
+    /*display: inline-block;*/
+    display: none;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin: 5px 0 0 5px;
+    background: url(../image/profile_imgs/checkbox-sprite.png) no-repeat  0 0;
+    cursor: pointer;
+}
+
+.profile-watches-container input[type="checkbox"]:checked + label span {
+    background:url(../image/profile_imgs/checkbox-sprite.png) no-repeat -25px 0;
+}
+
+.profile-watches-container .observations-close-btn {
+    margin-top: 8px;
+    float: right;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    background: url(../image/profile_imgs/close-btn-sprite.png) no-repeat 0 0;
+}
+
+.profile-watches-container .observations-close-btn:hover {
+    background: url(../image/profile_imgs/close-btn-sprite.png) no-repeat  0 -26px;
+}
+
+.profile-watches-container .brand-info {
+    text-align: left;
+    max-width: 300px !important;
+    padding: 8px 0 0 15px;
+    display: inline-block;
+}
+
+.profile-watches-container .info-about-product {
+    width: 100% !important;
+}
+
+.profile-watches-container .info-about-product label {
+    width: 90px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    color: #666666;
+    font-family: 'Century Gothic';
+}
+
+.profile-watches-container .info-about-product p {
+    width: 180px;
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Century Gothic';
+}
+
+.profile-watches-container .info-about-product a {
+    font-size:  11px;
+    font-weight: bold;
+    color: #53a3b3;
+    font-family: 'Century Gothic';
+}
+
+.profile-watches-container .review {
+    margin-left: 8px;
+    color: #383333 !important;
+    text-decoration: underline;
+    position: absolute;
+}
+
+.profile-watches-container .price-block {
+    width: 135px;
+    text-align: center;
+    padding: 7px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+.profile-watches-container .old-price {
+    float: left;
+    margin: 27px 0 0 25px;
+    font-family: 'Century Gothic';
+}
+
+.profile-watches-container .old-price>p {
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-watches-container .new-price>p {
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold ;
+}
+
+.profile-watches-container .new-price {
+    float: left;
+    margin: 27px 0 0 25px;
+    opacity:  0.5;
+    font-family: 'Century Gothic';
+}
+
+.profile-watches-container .bold-text {
+    font-weight: bold;
+}
+
+.profile-watches-container .pink {
+    color: #b62371;
+}
+
+.profile-watches-container .fast-order {
+    width: 135px;
+    padding: 7px;
+    background-color: #959595;
+    color: #fff;
+    cursor: pointer;
+    font: bold 1em "Century Gothic",sans-serif;
+    text-transform: uppercase;
+    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.profile-watches-container .add-basket {
+    width: 135px;
+    padding: 7px;
+    background-color: #56a5b1;
+    color: #fff;
+    cursor: pointer;
+    font: bold 1em "Century Gothic", sans-serif;
+    text-transform: uppercase; 
+    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.profile-watches-container .selection {
+    width: 100%;
+    padding: 15px 40px;
+    /*display: inline-block;*/
+    display: none;
+}
+
+.profile-watches-container .selection-buttons {
+    float: right;
+}
+
+.profile-watches-container .selection-links {
+    float: right;
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+.profile-watches-container .selection-links a {
+    font-family: 'Century Gothic';
+    text-decoration: underline;
+    color: #666666;
+    margin-right: 10px !important; 
+}
+
+.profile-watches-container .basket-btn, .profile-watches-container .delete-btn {
+    font-family: 'Century Gothic';
+    padding: 5px 20px;
+    background-color: #4f9fab;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer; 
+    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
+}
+
+.profile-watches-container ul {
+    list-style: none;
+}
+
+.profile-watches-container a {
+    text-decoration: none;
+}
+
+.profile-watches-container .clearfix:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.profile-watches-container {
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 500px;
+    text-align: center;
+}
+.profile-watches-container .content_block article {
+    width:420px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-watches-container .white-color {
+    border-right: 1px solid #cccccc !important;
+    background: rgba(255,255,255,1) !important;
+}
+
+.profile-watches-container .bg-color {
+    background-color: #f5f5f5;
+}
+
+.profile-watches-container .border {
+    border: 1px solid #cccccc;
+}
+
+.profile-watches-container .active-1 {
+    display: block;
+}
+
+.profile-watches-container .disable {
+    display: none;
+}
+
+.profile-watches-container .opacity-0 {
+    opacity: 0;
+}
+
+.profile-watches-container .opacity-1 {
+    opacity: 1;
+}
+
+.profile-watches-container .opacity-2 {
+    opacity: 0.2;
+}
+
+/*media*/
+
+@media only screen and (max-width: 1200px) {
+
+    /*.profile-container p span {
+        width: 85px;
+        font-size: 10px;
+        margin: 0 -10px 0 45px;
+    }
+
+    .profile-container .items {
+        width: 120px;
+        border:transparent;
+    }
+
+    .profile-container .send-person {
+        font-size: 10px;
+        line-height: 19px;
+    }*/
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    /*.profile-container p span {
+        width: 55px;
+        font-size: 10px;
+        margin: 0 -5px 0 -5px !important;
+    }
+
+    .profile-container .inform_block {
+        margin-left: 0px !important;
+    }
+
+    .profile-container .items {
+        width: 90px;
+        border:transparent;
+    }
+
+    .profile-container .selects a {
+        width: 195px;
+    }*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*.profile-container .selects a {
+        width: 110px;
+    }
+    .profile-container .content_block article, 
+    .glavnaja article {
+        width: 450px !important;
+    }
+
+    .profile-container .sliders article .inform {
+        width: 430px !important;
+    }
+
+    .profile-container .title, 
+    .profile-container .namehead {
+        text-align: center;
+    }
+
+    .profile-container p span {
+        margin: 0;
+        width: 80px;
+    }
+
+    .profile-container .items:first-child {
+        display: none;
+    }
+
+    .profile-container .items {
+        width: 85px;
+        border:transparent;
+    }
+
+    .profile-container .items:last-child {
+        display: none;
+    }
+
+    .profile-container .rte table, 
+    .profile-container .rte thead, 
+    .profile-container .rte tbody, 
+    .profile-container .rte th, 
+    .profile-container .rte td, 
+    .profile-container .rte tr { 
+        display: block; 
+    }
+
+    .profile-container .rte-2 table, 
+    .profile-container .rte-2 thead, 
+    .profile-container .rte-2 tbody, 
+    .profile-container .rte-2 th, 
+    .profile-container .rte-2 td, 
+    .profile-container .rte-2 tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /*.profile-container .rte thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .profile-container .rte tr { 
+        border: 1px solid #ccc; 
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+
+    .profile-container .rte td { 
+        /* Behave  like a "row" */
+    /*border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50% !important; 
+    white-space: normal;
+    margin: 2px 0;
+    padding: 2px 0;
+}
+
+.profile-container .rte td:before { 
+
+    position: absolute;
+
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/*
+Label the data
+    */
+    /*.profile-container .rte td:before {
+        content: attr(data-title);
+    }
+
+    .profile-container .tab {
+        width:49%;
+        text-align: center;
+        margin: 5px auto;
+        display: inline-block;
+        font-size: 9px;
+    }
+
+    .profile-container .inform p {
+        text-align: center !important;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .profile-container .rte-2 thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .rte-2 tr { 
+        border: 1px solid #ccc; 
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+
+    .rte-2 td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50% !important; 
+        white-space: normal;
+        margin: 2px 0;
+        padding: 2px 0;
+    }
+
+    .rte-2 td:before { 
+        position: absolute;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    .profile-container .rte-2 td:before {
+        content: attr(data-title);
+    }
+
+    /* Force table to not be like tables anymore */
+    .rte table, 
+    .rte thead, 
+    .rte tbody, 
+    .rte th, 
+    .rte td, 
+    .rte tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .rte thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .rte tr {
+        border: 1px solid #ccc;
+    }
+
+    .rte td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50% !important; 
+        white-space: normal;
+    }
+
+    .rte td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    .rte td:before {
+        content: attr(data-title);
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .profile-watches-container .old-price {
+        float: inherit;
+        display: inline-block !important;
+        text-align: center !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .profile-watches-container .new-price {
+        float: inherit;
+        display: inline-block !important;
+        text-align: center !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .profile-watches-container .old-price {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .profile-watches-container .new-price {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .profile-watches-container .basket-btn {
+        margin: 10px 0;
+    }
+
+    .profile-watches-container .delete-btn{
+        margin: 10px 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*.profile-container .content_block {
+        padding: 5px 2px;
+    }
+
+    .profile-container .content_block article, 
+    .profile-container .glavnaja article {
+        width: 300px !important;
+        margin: 10px 0;
+    }
+
+    .profile-container .inform_long, 
+    .profile-container .inform, 
+    .profile-container .sliders article .inform {
+        width: 270px !important;
+    }
+
+    .profile-container .inform_long input, 
+    .profile-container .inform input {
+        width: 110px;
+    }
+
+    .profile-container .input_block label {
+        font-size: 11px;
+    }
+
+    .profile-container .inform p {
+        text-align: center !important;
+    }
+
+    .profile-container .title {
+        text-align: center;
+    }
+
+    .profile-container .inform_block a {
+        display: block;
+        text-align: left;
+    }
+
+    .profile-container .full .inform {
+        width: 310px !important;
+    }
+
+    .profile-container .table .full {
+        width: 100% !important;
+    }
+
+    .profile-container .selects a {
+        width: 180px;
+    }
+
+    .profile-container input[name="nums"] {
+        width: 30px;
+    }
+
+    .profile-container p span {
+        margin: 0;
+        width: 57px;
+        font-size:10px;
+    }
+
+    .profile-container .items:first-child {
+        display: none;
+    }
+
+    .profile-container .items:last-child {
+        display: none;
+    }
+
+    .profile-container .items {
+        font-size:9px;
+        width: 58px;
+        border: transparent;
+        font-weight: 700;
+    }
+
+    .profile-container .otzyv_left, .brand_ab {
+        font-size: 16px;
+    }
+
+    .profile-container .otzyv_left b {
+        display: block;
+        font-size: 12px;
+    }*/
+}
+
+@media only screen and (max-width: 400px) {
+
+    .brand-info {
+        margin-right: 10%;
+    }
+
+    .selection-links {
+        float: inherit;
+        margin: 0 auto;
+    }
+
+    .selection-links a {
+        display: block;
+        width: 100%;
+    }
+
+    .brand-info {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    .product-img {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 315px) {
+
+    .profile-watches-container .review {
+        position: relative;
+        float: left;
+    }
+
+}

@@ -1,0 +1,436 @@
+/*==============================================================================
+/*              tooltip и input[type='number']
+/*============================================================================*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.custom-tooltip-styling {
+    font-family: "CenturyGothic";
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 12px;
+}
+.custom-border-tooltip {
+    padding: 10px 3px 10px 24px;
+    border: 1px solid #ccc;
+}
+.custom-error-styling {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    font-family: "CenturyGothic";
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 12px;
+}
+body>.ui-tooltip {
+    border-width: 0 !important;
+}
+/*==============================================================================
+/*                       Таблица Корзины
+/*============================================================================*/
+.main-container .basket-conteiner {
+    font-family: "CenturyGothic";
+    padding: 20px;
+}
+.main-container .basket-conteiner .basket-table {
+    border: 0px none;
+}
+.main-container .basket-conteiner .table-res #mCSB_1_container p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+}
+.main-container .basket-conteiner .basket-table p {
+    font-size: 12px;
+}
+.main-container .basket-conteiner .basket-table span {
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-container .basket-conteiner .basket-table th {
+    border-left: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    color: #FFF;
+    background-color: rgb(100,100,100);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.main-container .basket-conteiner .basket-table .basket-items-header i{
+    color: red;
+    font-size: 15px;
+}
+.main-container .basket-conteiner .basket-table td, .basket-table th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+.main-container .basket-conteiner .basket-table .basket-img {
+    max-height: 135px;
+}
+.main-container  .basket-conteiner .basket-table .basket-counter-group {
+    width: 50px;
+    display: inline-block;
+}
+.main-container .basket-conteiner .basket-table .basket-counter-group div {
+    position: relative;
+    cursor: pointer;
+}
+.main-container .basket-conteiner .basket-table .basket-counter-group input {
+    width: 30px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+    border: 1px solid #aaaaaa;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.main-container .basket-conteiner .basket-table .string-gift {
+    color: #ea6f17;
+    font-weight: 600;
+    padding-left: 8px;  
+}
+.main-container .basket-conteiner .basket-table .basket-counter-group div.basket-minus-btn:before {
+    content: " ";
+    position: absolute;
+    background: url(../image/sprite.png) no-repeat -288px -29px;
+    width: 10px;
+    height: 10px;
+    top: 6px;
+    left: -1px;
+}
+.main-container .basket-conteiner .basket-table .basket-counter-group div.basket-plus-btn:before {
+    content: " ";
+    position: absolute;
+    background: url(../image/sprite.png) no-repeat -308px -29px;
+    width: 10px;
+    height: 10px;
+    top: -14px;
+    right: -3px;
+}
+.main-container .basket-conteiner .basket-table #delete-laber {
+    background-color: #fff;
+    border: 0px !important;
+}
+.main-container .basket-conteiner .basket-table .basket-com-delete {
+    color: red;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 0px solid #000;
+    display: block;
+}
+.main-container .basket-conteiner .submit-show {
+    background-color: #54a5b2;
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    width: 30%;
+    margin: 20px;
+    border: none;
+    outline: none;
+}
+.main-container .basket-conteiner .submit-clear-all {
+    display: inline-block;
+    height: 40px;
+    line-height: 16px;
+    margin: 20px 55px;
+    outline: none;
+    border: 2px solid #C1C1C2;
+    color: #8F8F8F;
+}
+/*==============================================================================
+/*                       Форма Корзины
+/*============================================================================*/
+.main-container .basket-conteiner .basket-form {
+    width: 60%;
+    margin: 20px auto;
+    display: none;
+}
+.main-container .basket-conteiner .basket-form .country-selector {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.main-container .basket-conteiner .basket-form .country-selector span {
+    font-size: 20px;
+}
+.main-container .basket-conteiner .basket-form input {
+    font-size: 14px;
+    height: 40px !important;
+}
+.main-container .basket-conteiner .basket-form #select-country-radio label{
+    margin: 15px 0;
+    border: none;
+}
+.main-container .basket-conteiner .basket-form #select-country-radio .ui-state-active {
+    background: #54a5b2;
+}
+.main-container .basket-conteiner .basket-form .textarea {
+    padding: 8px 10px;
+    resize:none
+}
+.main-container .basket-conteiner .basket-form hr {
+    width: 150%;
+    margin-left: -25%;
+}
+.main-container .basket-conteiner .basket-form span,
+.main-container .basket-conteiner #final-basket-conteiner .table-final-result span {
+    font-size: 16px;
+}
+.main-container .basket-conteiner .basket-form .control-hide {
+    width: 100%;
+}
+.main-container .basket-conteiner .basket-form .glyphicon-ok {
+    line-height: 40px;
+}
+.main-container .basket-conteiner .result-order {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.main-container .basket-conteiner .basket-form .btn-submit-order {
+    border: none;
+    width: 60%;
+    margin: auto;
+    background: #54a5b2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container .basket-conteiner .basket-form .commision, .main-container .basket-conteiner .basket-table #th-count {
+    cursor: help;
+}
+.main-container .basket-conteiner .commision i {
+    color: red;
+    font-size: 20px;
+}
+/*==============================================================================
+/*                       Пустая Корзина
+/*============================================================================*/
+.main-container .basket-conteiner .basket-empty-conteiner {
+    height: 350px;
+    border: 1px solid #ccc;
+}
+.main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content {/* для IE8+ */
+    width: 60%;
+    padding: 4px;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%); 
+    -o-transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%); 
+}
+.main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content .custom-border { 
+    padding: 30px 25px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+}
+.main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content .custom-border p {
+    font-family: "CenturyGothic";
+    font-size: 20px;
+}
+.main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content .custom-border p b {
+    display: block;
+    font-size: 80px;
+    color: #51A2B3;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+/*==============================================================================
+/*               Страница успешного оформления заказа
+/*============================================================================*/
+.main-container .basket-conteiner #final-basket-conteiner {
+    text-align: center;
+    padding: 15px;
+    font-family: "CenturyGothic";
+    font-size: 15px;
+    line-height: 18px;
+    border: 1px solid #ccc;
+}
+.main-container .basket-conteiner #final-basket-conteiner .p-strong {
+    font-size: 19px;
+    font-weight: bold;
+}
+.main-container .basket-conteiner #final-basket-conteiner .table-final-result {
+    width: 50%;
+    margin: auto;
+}
+.main-container .basket-conteiner #final-basket-conteiner .dl-conteiner {
+    width: 50%;
+    margin: 20px auto;
+}
+.main-container .basket-conteiner #final-basket-conteiner .dl-conteiner dt {
+    font-weight: 700;
+}
+/*------------------------------------------------------------------------------
+/*                       Form Styler
+/*----------------------------------------------------------------------------*/
+.main-container .basket-conteiner .basket-form #id-delivery-method-styler,
+.main-container .basket-conteiner .basket-form #autocom_warehouse-styler {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.main-container .basket-conteiner .basket-form select {
+    margin-bottom: 5px;
+}
+.basket-form .jq-selectbox li {
+    font-size: 12px;
+    line-height: 8px;
+}
+.basket-form .jq-selectbox li:hover {
+    background-color: #5BAEB9;
+}
+.basket-form .jq-selectbox__dropdown ul li {
+    font-family: "CenturyGothic";
+}
+.basket-form .jq-selectbox .jq-selectbox__select {
+    width: 100%;
+    background: none;
+    background-color: #fff;
+    box-shadow: none;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.basket-form .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+    font-family: "CenturyGothic";
+    color: #A7A7A7;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 36px;
+    vertical-align: top;
+    padding-left: 7px;
+    overflow: visible;
+}
+.basket-form .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+    border: none;
+    width: 20px;
+}
+.basket-form .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+    top: 17px;
+    right: 7px;
+    border-top: 5px solid #5BAEB9;
+    opacity: 1;
+}
+.basket-form .jq-selectbox .jq-selectbox__dropdown {
+    top: 43px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+/*==============================================================================
+/*                        стили google Api
+/*============================================================================*/
+.pac-container {
+    font-family: "CenturyGothic";
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.pac-item:hover {
+    background-color: #5BAEB9;
+    color: #FFF;
+}
+/*==============================================================================
+/*                       Media
+/*============================================================================*/
+
+@media screen and (max-width: 991px) {
+    .main-container .basket-conteiner .basket-form {
+        width: 70%;
+    }
+    #final-basket-conteiner .table-final-result {
+        width: 65%;
+    }
+    .main-container .basket-conteiner .basket-table .basket-img {
+        max-height: 100px;
+    }
+}
+@media screen and (max-width: 767px) {  
+    .main-container .basket-conteiner .basket-form {
+        width: 85%;
+    }
+    .main-container .basket-conteiner .submit-show, .main-container .basket-conteiner .submit-clear-all {
+        width: 32%;
+        font-size: 13px;
+    }
+    .main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content {
+        width: 70%;
+    }
+    .main-container .basket-conteiner .table-res {
+        border: 0;
+    }
+    .main-container .basket-conteiner #final-basket-conteiner .table-final-result {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-container .basket-conteiner .basket-form {
+        width: 95%;
+    }
+    .main-container .basket-conteiner .basket-form .btn-submit-order {
+        font-size: 18px;
+    }
+    .main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content {
+        width: 80%;
+    }
+    .main-container .basket-conteiner #final-basket-conteiner .table-final-result {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .main-container .basket-conteiner .submit-show, .main-container .basket-conteiner .submit-clear-all {
+        width: 45%;
+        margin: 15px 5px;
+        margin: 15px 5px;
+        font-size: 15px;
+    }
+    .main-container .basket-conteiner .basket-empty-conteiner .basket-empty-content {
+        width: 85%;
+    }
+    .main-container .basket-conteiner #final-basket-conteiner .table-final-result {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main-container .basket-conteiner .basket-form {
+        width: 100%;
+    }
+    .main-container .basket-conteiner .basket-form .btn-submit-order {
+        width: 70%;
+        font-size: 16px;
+    }
+    .main-container .basket-conteiner .submit-show, .main-container .basket-conteiner .submit-clear-all {
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+}

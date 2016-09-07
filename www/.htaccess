@@ -1,0 +1,96 @@
+DirectoryIndex index.php
+
+##php_flag register_globals Off
+##php_flag session.bug_compat_warn Off
+##php_flag max_execution_time 0
+##php_value error_reporting 0
+AddDefaultCharset UTF-8
+php_flag short_open_tag On
+<IfModule mod_rewrite.c>
+##Options -MultiViews
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^prom.yml?$	includes/price/yml.php  [L,QSA]
+RewriteRule ^all-biz.yml?$	includes/price/yml.php  [L,QSA]
+RewriteRule ^zakupka.yml?$	includes/price/yml.php  [L,QSA]
+RewriteRule ^zakupka.xls?$	includes/price/xls.php  [L,QSA]
+
+RewriteRule ^([0-9]+)stitle2/(.*)\.jpg$ //images/commodities/$1/s_title2.jpg [L]
+RewriteRule ^([0-9]+)btitle2/(.*)\.jpg$ //images/commodities/$1/title2.jpg [L]
+RewriteRule ^([0-9]+)stitle/(.*)\.jpg$ //images/commodities/$1/s_title.jpg [L]
+RewriteRule ^([0-9]+)btitle/(.*)\.jpg$ //images/commodities/$1/title.jpg [L]
+
+RewriteRule ^([0-9]+)simg/(.*)\.jpg$ //images/articles/$1/s_title.jpg [L]
+RewriteRule ^([0-9]+)bimg/(.*)\.jpg$ //images/articles/$1/title.jpg [L]
+
+## �����������������
+RewriteRule ^cmsadmin$ //index.php?admin=start [L]
+RewriteRule ^cmsadmin/$ //index.php?admin=start [L]
+## �����������������
+
+#������������
+RewriteRule ^activate_user/([0-9]+?)/(.*)\.html$ //index.php?page=activate_user&user_id=$1&code=$2 [L]
+RewriteRule ^activate_user/([0-9]+?)/(.*)/$ //index.php?page=activate_user&user_id=$1&code=$2 [L]
+#������������
+
+RewriteCond %{REQUEST_URI} ^/pr([0-9]+)
+RewriteRule ^pr([0-9]+) http://makewear.com.ua/product/$1/.html [R=301,L]
+
+RewriteRule ^commodity/category([0-9]+)/all/$ //index.php?page=category&categoryID=$1&p=all [L]
+RewriteRule ^product/([0-9]+)/(.*)\.html$ //index.php?url=product&id=$1 [L]
+RewriteRule ^myaccount/([a-z-]+)/$ //index.php?url=myaccount&parameter=$1 [L]
+RewriteRule ^unsubscribe/([0-9]+)$ //index.php?url=unsubscribe&id=$1 [L]
+RewriteRule ^([a-z-]+)/([a-z-]+)$ //index.php?url=$1&parameter=$2 [L]
+RewriteRule ^([a-z-]+)/([a-z-]+)/page/([0-9=]+) //index.php?url=$1&parameter=$2&page=$3 [L]
+RewriteRule ^([a-z-]+)/([a-z-]+)\.html$ //index.php?url=$1&parameter=$2 [L]
+RewriteRule ^prices/([a-z-.]+)?$ //index.php?url=prices&parameter=$1 [L]
+
+## ���������
+RewriteRule ^rus/$ //index.php?sel_lang=1 [L]
+RewriteRule ^eng/$ //index.php?sel_lang=3 [L]
+RewriteRule ^ukr/$ //index.php?sel_lang=2 [L]
+
+RewriteRule ^sitemap\.php$ - [L]
+RewriteRule ^plugins/fckeditor010789/(.*)$ - [L]
+RewriteRule ^70324a16f7a1.html$ - [L]
+RewriteRule ^google8ca9c86c52f2882a.html$ //index.php?url=googlecod [L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\..{1,10}$
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+RewriteRule ^(.*)/$ //index.php?url=$1 [L]
+
+## RewriteRule ^([a-z0-9\-\_\/]+)$ //index.php?url=$1 [L]
+## ���������
+
+</IfModule>
+
+Order Deny,Allow
+
+Allow from 109.86.86.108
+Allow from 176.36.188.178
+Allow from 195.60.229.66
+
+<ifModule mod_headers.c>
+    # ��� html � htm ����� ����� ��������� � ���� �������� ���� ����
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+    # ��� css, javascript � ��������� ����� ����� ��������� � ���� �������� ���� ������
+    <FilesMatch "\.(js|css|txt)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+    # ��� ���� ����� � ����������� ����� ��������� � ���� �������� ���� �����
+    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+    # ��������� ����������� php � ������ ��������� ������
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</IfModule>

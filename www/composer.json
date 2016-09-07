@@ -1,0 +1,33 @@
+{
+    "name": "makewear-app",
+    "description": "Internet Shop",
+    "keywords": ["makewear", "shop"],
+    "homepage": "http://www.makewear.com.ua/",
+    "type": "project",
+    "license": "лицензия",
+    "support": {
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "sendgrid/sendgrid": "~4.0",
+        "lis-dev/nova-poshta-api-2": "dev-master",
+        "olamedia/nokogiri": "dev-master",
+        "phpoffice/phpexcel": "^1.8",
+        "microsoft/windowsazure": "^0.4"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "Parser\\Provader\\": "parser/classes/provader",
+            "Parser\\Report\\": "parser/classes/report",
+            "Parser\\": "parser/classes",
+            "Modules\\Basket\\": "modules/classes/basket",
+            "Modules\\Stikers\\": "modules/classes/stikers",
+            "Modules\\Prices\\": "modules/classes/prices",
+            "Modules\\": "modules/classes",
+            "CMS\\": "modules/classes/cms"
+        }
+    }
+}

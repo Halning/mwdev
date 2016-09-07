@@ -1,0 +1,1 @@
+<?php $center=$result_str;?>

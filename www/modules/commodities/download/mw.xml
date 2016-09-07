@@ -1,0 +1,35 @@
+<?xml version='1.0' standalone='yes'?>
+<mw_commodities>
+	<commodity>
+		<id>
+			111
+		</id>
+		<art>
+			jhgj-333
+		</art>
+		<categoty_name>
+			cardo
+		</categoty_name>
+		<name>
+			sss
+		</name>
+		<price>
+			233
+		</price>
+		<opt>
+			100
+		</opt>
+		<size>
+			x(30)
+		</size>
+		<desc>
+			dasfaffafadf
+		</desc>
+		<mw_url>
+			http://makewear.com.ua/product/22222/eeedsd22312.html",
+		</mw_url>
+		<from_url>
+			dddd
+		</from_url>
+	</commodity>
+</mw_commodities>

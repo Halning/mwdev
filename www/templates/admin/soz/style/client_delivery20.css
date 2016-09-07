@@ -1,0 +1,869 @@
+.see_file{
+							border: 1px solid gray;
+						    margin: 3px;
+						    text-align: center;
+						}
+						.name_file{
+							border:1px solid #B7B7B7;
+							 width: 300px;
+						    position: absolute;
+						    right: 6px;
+						    top: 9px;
+						    
+
+						}
+						.name_file::after, .name_file::before{
+							 content: '';
+						    position: absolute;
+						    left: 30px;
+						    top: -20px;
+						    border: 10px solid transparent;
+						    border-bottom: 10px solid gray;
+						}
+						.name_file::after{
+							border-bottom: 10px solid white;
+						   top: -19px;
+						}
+
+						.name_file2{
+						    border:1px solid #B7B7B7;
+						    width: 300px;
+						    /*position: absolute;*/
+						    right: 6px;
+						    top: 9px;
+						    
+
+						}
+						.name_file2::after, .name_file2::before{
+						     content: '';
+						    position: absolute;
+						    left: 30px;
+						    top: -20px;
+						    border: 10px solid transparent;
+						    border-bottom: 10px solid gray;
+						}
+						.name_file2::after{
+						    border-bottom: 10px solid white;
+						   top: -19px;
+						}
+							
+						.show_file{
+							 border: 2px solid #203775;
+						    margin-left: auto;
+						    margin-right: auto;
+						    background: white;
+						    /*width: 615px;	*/
+						    position: relative;
+						    display: inline-block;
+						}
+						/*.any_file{
+							
+						    cursor: pointer;
+						    position: relative;
+						    margin: 20px;
+						    width: 137px;
+						    font-size: 13px;
+						    font-weight: bold;
+						    padding: 6px;
+						    color: #464646;
+						}*/
+						.any_file{
+	
+						    cursor: pointer;
+						    position: relative;
+						    margin: 20px;
+						    margin-bottom: 2px;
+						    width: 137px;
+						    font-size: 13px;
+						    font-weight: bold;
+						    padding: 6px;
+						    color: #464646;
+						}
+						.delete_file{
+						    color: red;
+						    font-size: 15px;
+						    font-weight: bold;
+						    margin-bottom: 8px;
+						    text-align: left;
+						    padding-left: 25px;
+						    cursor: pointer;
+						}
+						.delete_file i{
+						    padding-right: 4px;
+						}
+						/*.kyt_up{
+							 border-bottom: 9px solid blue;
+						    border-left: 9px solid transparent;
+						    border-right: 9px solid transparent;
+						    right: 99px;
+						    position: absolute;
+						    top: 2px;
+						    z-index: 1;
+						}*/
+						.any_file .upload{
+							 position: absolute;
+						    top: 0;
+						    left: 0;
+						    width: 111px;
+						    height: 40px;
+						    cursor: pointer;
+						    opacity: 0;
+						}
+						.body_upload{
+							 position: fixed;
+						    width: 100%;
+						    height: 100%;
+						    background: rgba(58, 58, 58, 0.42);
+						    z-index: 5;
+						    top: 0;
+						    left: 0;
+						    display: table;
+						}
+						.bbb2{
+							display: table-cell;
+							vertical-align: middle;
+							text-align: center;
+						}
+						#uupp{
+							background: gray;
+							padding: 2px;
+						   margin-left: 40px;
+						   margin-right: 40px;	
+						   cursor: pointer;
+						   position: relative;
+						   overflow: hidden;
+						}
+						#uupp .upload{
+							position: absolute;
+							top: 0px;
+							right: 0px;
+							width: 100%;
+							left: 0px;
+							height: 100%;
+							opacity: 0;
+							cursor: pointer;
+						}
+						#uupp div{
+							background: gray;
+						   	text-align: center;
+						   	border: 2px solid white;
+						   	padding: 16px;
+						   	font-size: 14px;
+						   	color: white;
+						}
+						.wind_upload{	
+							width: 350px;
+						  	border: 2px solid #203775;
+						    margin: 50px auto;
+						   	background: white;
+						   	position: relative;
+						}
+						.close_upload{
+							position: absolute;
+							right: -26px;
+
+						}
+						.wind_upload div:nth-child(2){
+							font-size: 15px;
+						    font-weight: bold;
+						    width: 100%;
+						    text-align: center;
+						    color: #203775;
+						    margin-top: 10px;
+						}
+						/*.wind_upload div:nth-child(3){
+							text-align: center;
+						    font-weight: bold;
+						    background: #ECECEC;
+						    margin: 12px;
+						    padding: 3px;
+						}*/
+						.wind_upload div:last-child{
+							color: #656565;
+						    background: #ECECEC;
+						    margin: 9px;
+						    padding: 5px;
+						}
+
+						.wind_upload .names{
+						    text-align: center;
+						    font-weight: bold;
+						    background: #ECECEC;
+						    margin: 12px;
+						    padding: 3px;
+						}
+						.wind_o{
+							padding-left: 5px;
+						}
+
+						
+
+						.delivery_mw_k{
+							border: 1px solid black;
+							border-collapse: collapse; 
+						}
+						.delivery_mw_k td{
+							padding: 0px;
+					    	padding-top: 2px;
+					    	padding-bottom: 0px;
+						}
+						.delivery_mw_k td:nth-child(1) {
+							/*border-right: 1px solid #CCC;*/
+						}
+						.delivery_mw_k td:nth-child(2) {
+							padding-left: 2px;
+						}
+						.delivery_mw_k td:last-child {
+							padding-right: 2px;
+							border-right: 1px solid #CCC;
+						}
+						.delivery_mw_k .hdiv{
+							display: table;
+							width: 100%;
+							text-align: center;
+						}
+						.delivery_mw_k td:first-child .hdiv, table td:last-child .hdiv{
+							background: white;
+						}
+						.delivery_mw_k .hdiv .hdiv2{
+							background: #2B7C98;
+							padding: 5px;
+							color: white;
+						    font-weight: bold;
+						    font-size: 13px;	
+						}
+						.delivery_mw_k td:nth-child(2) .hdiv .hdiv2{
+							border-bottom-left-radius: 10px;
+							border-top-left-radius: 10px;
+						}
+						.delivery_mw_k td:last-child .hdiv .hdiv2{
+							border-bottom-right-radius: 10px;
+							border-top-right-radius: 10px; 
+						}
+						.delivery_mw_k .hdiv .hdiv2{
+							display: table-cell;
+							vertical-align: middle;
+						}
+						.delivery_mw_k .tab_down td:nth-child(2) .hdiv .hdiv2{
+							border-bottom-left-radius: 0px;
+							/*border-top-left-radius: 10px;*/
+						}
+						.delivery_mw_k .tab_down td:last-child .hdiv .hdiv2{
+							border-bottom-right-radius: 0px;
+							/*border-top-right-radius: 10px; */
+						}
+						
+
+						
+						.line_b {
+						    border: 2px solid #2B7C98;
+						    border-bottom-right-radius: 8px;
+						    border-bottom-left-radius: 8px;
+						    margin-left: 2px;
+						    margin-right: 2px;
+						}
+						.line_b td{
+							vertical-align: middle;
+							padding-right: 3px;
+							padding-left: 3px;
+						}
+						.back_icon{
+							/*background: #313131;*/
+							/*background: linear-gradient(#808080, rgba(204, 204, 204, 0.52), #909090) repeat 0 0;*/
+						    width: 30px;
+						    height: 40px;
+						    padding: 5px;	
+						    margin: 4px;
+						    border-radius: 2px;
+						    background: rgba(153,151,153,1);
+background: -moz-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,151,153,1)), color-stop(50%, rgba(61,61,61,1)), color-stop(54%, rgba(61,61,61,1)), color-stop(58%, rgba(49,49,49,1)), color-stop(64%, rgba(49,49,49,1)), color-stop(71%, rgba(49,49,49,1)), color-stop(100%, rgba(49,49,49,1)));
+background: -webkit-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -o-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: -ms-linear-gradient(top, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+background: linear-gradient(to bottom, rgba(153,151,153,1) 0%, rgba(61,61,61,1) 50%, rgba(61,61,61,1) 54%, rgba(49,49,49,1) 58%, rgba(49,49,49,1) 64%, rgba(49,49,49,1) 71%, rgba(49,49,49,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999799', endColorstr='#313131', GradientType=0 );
+						 
+						}
+						.left_icon{
+							display:table;
+							position: absolute;
+						    right: 5px;
+						    margin-top: -60px;
+						}
+						.table_line2_gr{
+							background: #313131;
+						    padding: 2px;
+						    margin-left: 20px;
+						    display: inline-block;
+						}
+						.table_line2_white{
+							background: white;
+						    padding: 3px;
+						}
+						.tab_info{
+    						border-collapse: collapse;
+    						border: 1px solid white;
+						}
+						.tab_info td{vertical-align: middle;}
+						.tab_info td:nth-child(1){
+							padding: 2px;
+						    padding-left: 8px;
+						    padding-right: 8px;
+						    color: white;
+    						background: #313131;
+    						font-weight: bold;
+						}
+						
+						.tab_info td:nth-child(2), .tab_info td:nth-child(3), .tab_info td:nth-child(4), .tab_info td:nth-child(5){
+							 padding: 2px;
+						    padding-left: 10px;
+						    padding-right: 10px;
+						    background: white;
+						    text-align: center;
+						    color:#313131;
+						    border: 1px solid #313131;
+    						 /*border-left: 1px solid #313131;*/
+    						font-weight:bold;
+						}
+						.client_line{
+							background:#2B7C98;
+							color:white;
+							width:100%;
+							font-size: 13px;
+							padding: 5px;
+							font-weight: bold;
+							display:table;
+						}
+						.table_line{
+							border: 2px solid #2B7C98;
+						}
+						.tab_up{
+							border-radius: 7px;
+						}
+						.tab_down{
+							/*border-top-left-radius: 7px;
+							border-top-right-radius: 7px;*/
+						}
+						.tab_td{
+							display:table-cell;
+							padding: 3px;
+						}
+						.tab_td2{
+							display:table-cell;
+						}
+						.cli_open{
+							width:10px;
+							cursor:pointer;
+							padding:2px;
+							padding-left: 7px;
+						}
+						.cli_cod{
+							width: 48px;
+						}
+						.cli_date{
+							width: 129px;
+						}
+						.cli_id{
+							width: 33px;
+						}
+						.cli_status{
+							width: 145px;
+						}
+						.cli_name{
+							width: 140px;
+						}
+						.cli_count{
+							width: 5%;
+						}
+						.cli_summa{
+							width:8%;
+							text-decoration: underline;
+						}
+						.cli_cont{
+							width:5%;
+							cursor:pointer;
+						}
+						.cli_xls{
+							width:5%;
+						}
+						.cli_chat{
+							width:8%;
+						}
+						.cli_check{
+							
+						}
+						.cli_info{
+							width: 300px;
+							position: absolute;
+							top:16px;
+							right: -1px;
+							color: black;
+							background: white;
+							z-index:100;
+							border-bottom: 2px solid #2B7C98;
+							border-right: 2px solid #2B7C98;
+							border-left: 2px solid #2B7C98;
+							border-bottom-left-radius: 7px;
+							border-bottom-right-radius: 7px;
+							font-size: 11px;
+							box-shadow: 0px 7px 10px black;
+						}
+						.cli_info .info_td{
+							color:#2B7C98;
+							text-align: left;
+							padding-left: 4px;
+							width: 105px;
+						}
+						.cli_info table{
+							border-collapse: collapse;
+						}
+						.cli_info table tr:nth-child(even){
+							background: rgb(224, 224, 224);
+						}
+						.cli_info table tr td{
+							border: 0px solid;
+						}
+						.cli_info table tr td:last-child{
+							color: #4C4C4C;
+						    text-align: left;
+						    font-weight: 100;
+						}
+						.block_up{
+							border-bottom: 8px solid white;
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_down{
+							border-top: 8px solid white;
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_up1{
+							border-bottom: 5px solid #2B7C98;
+							border-left: 3px solid transparent;
+							border-right: 3px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.block_down1{
+							border-top: 5px solid white;
+							border-left: 3px solid transparent;
+							border-right: 3px solid transparent;
+							width: 0px;
+							height: 0px;
+						}
+						.bcc{
+							position: absolute;
+							margin-top: 10px;
+							margin-left: 2px;
+						}
+						.bcc1{
+							position: absolute;
+							margin-top: -11px;
+							margin-left: 0px;
+						}
+						.icon_xls{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 17px;
+							height: 19px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -311px -250px;
+						}
+						.icon_cont{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 12px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -200px -232px;
+						}
+						.icon_cont1{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 12px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -246px -232px;
+						}
+						.icon_chat{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 20px;
+							height: 19px;
+							background-size: 500px 600px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -312px -315px;
+						}
+						.icon_send{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							width: 23px;
+							height: 18px;
+							background-size: 594px 648px;
+							background-repeat: no-repeat;
+							background-attachment: scroll;
+							background-position: -209px -387px;
+							float: left;
+						}
+						.icon_send_blue{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 21px;
+						    height: 18px;
+						    background-size: 1085px 1234px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -390px -645px;
+						}
+						.icon_sent2{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							 width: 23px;
+						    height: 18px;
+						    background-size: 594px 692px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -209px -387px;
+							float: left;
+						}
+						.icon_sent{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 23px;
+						    height: 18px;
+						    background-size: 594px 692px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -240px -386px;
+						    float: left;    
+						}
+						.icon_calc{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 30px;
+						    height: 41px;
+						    background-size: 870px 1191px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -608px -808px;
+						}
+						.icon_info{
+							 background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 36px;
+						    height: 39px;
+						    background-size: 920px 1146px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -516px -808px;	
+						    cursor:pointer;
+						}
+						.icon_calendar{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 22px;
+						    height: 19px;
+						    background-size: 600px 577px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -115px -137px;
+						}
+						.icon_addrow{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 19px;
+						    height: 19px;
+						    background-size: 480px 558px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -148px -78px;
+						    /*float: left;*/
+						}
+						.icon_close{
+							    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+							    width: 18px;
+							    height: 17px;
+							    background-size: 439px 528px;
+							    background-repeat: no-repeat;
+							    background-attachment: scroll;
+							    background-position: -361px -345px;
+							    cursor: pointer;
+						}
+						.icon_close2{
+							position: absolute;
+						    right: -24px;
+						    top: 0px;
+						}
+
+						.icon_clip_will{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 20px;
+						    height: 19px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -31px -32px;
+						    margin-top: 1px;
+							 margin-bottom: 1px;
+						}
+						.icon_clip_was{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						   	width: 25px;
+						    height: 23px;
+						    background-size: 281px 298px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    /*background-position: -69px -67px;*/
+						    background-position: -55px -41px;
+						}
+						.icon_print{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 24px;
+						    height: 22px;
+						    background-size: 594px 648px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -485px -323px;
+						    cursor: pointer;
+						}
+						.icon_city{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 12px;
+						    height: 17px;
+						    background-size: 454px 532px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -215px -270px;
+						}
+						.icon_city_blue{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 11px;
+						    height: 18px;
+						    background-size: 454px 532px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -73px -339px;
+						}
+						.rekvizit{
+						    position: fixed;
+						    width: 100%;
+						    height: 100%;
+						    background: rgba(128, 128, 128, 0.37);
+						    top: 0;
+						    left: 0;
+						    z-index: 10;
+						}
+						.line_rek{
+						    background: white;
+						    width: 456px;
+						    margin: auto;
+						    margin-top: 7%;
+						    border: 2px solid;
+						    padding: 7px;
+						    position: relative;
+						    padding-top: 15px;
+    						padding-bottom: 15px;
+						}
+						.line_rek .add_row{
+						    background: gray;
+						    font-size: 12px;
+						    font-weight: bold;
+						    color: white;
+						    text-align: center;
+						    padding: 4px;
+						    border-radius: 10px;
+						    cursor: pointer;
+						    width: 160px;
+						}
+						.line_rek .rek_n{
+						    text-align: center;
+						    font-size: 15px;
+						    font-weight: bold;
+						    color: black;
+						    vertical-align: middle;
+						}
+						.line_rek .close_rek{
+						    position: absolute;
+						    right: -30px;
+						    top: -10px;
+						}
+						.tab_rez td:nth-child(1){
+						    width: 10px;
+						    vertical-align: middle;
+						}
+						.tab_rez td:nth-child(2){
+						    background: #54A5B2;
+						    text-align: center;
+						    color: white;
+						    margin: 2px;
+						    padding: 3px;
+						    font-weight: bold;
+						    width: 160px;
+						    vertical-align: middle;
+						}
+						.tab_rez td:nth-child(3){
+						    background: rgba(204, 204, 204, 0.46);
+						    color: #4C4C4C;
+						    margin: 2px;
+						    padding: 2px;
+						    vertical-align: middle;
+						    /*font-weight: bold;*/
+						}
+
+						.bor_xls{
+							position: absolute;
+			  				margin-top: 0px;
+						}
+						.bor_chat{
+							position: absolute;
+			  				margin-top: 2px;
+						}
+						.go_href{
+							cursor:pointer;	
+						}
+						.bor_info{
+							background: white none repeat scroll 0% 0%;
+						    display: inline-block;
+						    width: 25px;
+						    position: absolute;
+						    margin-top: 0px;
+						    margin-bottom: -3px;
+						    margin-right: -10px;
+						    padding: 4px 4px 1px;
+						    padding-bottom: 10px;
+						    left: -3px;
+						    top: -10px;
+						}
+						.bor_info2{
+							background: white;
+						    color: #2B7C98;
+						    display: inline-block;
+						    padding-bottom: 6px;
+						}
+						.icon_file_upload{
+							background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 30px;
+						    height: 42px;
+						    background-size: 1025px 1222px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -697px -565px;
+						    float: left;
+						    margin-right: 5px;
+						    margin-top: -10px;
+						}
+						.icon_file_jpg{
+						    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+						    width: 22px;
+						    height: 26px;
+						    background-size: 1146px 1169px;
+						    background-repeat: no-repeat;
+						    background-attachment: scroll;
+						    background-position: -893px -512px;
+						}
+						.city_info div{
+							vertical-align: middle;
+						}
+						@-moz-document url-prefix() { 
+							.cli_info{
+								/*margin-top: 17px;*/
+							}
+							.bor_xls{
+								position: absolute;
+								margin-top: -15px;
+							}
+							.bor_chat{
+								position: absolute;
+								margin-top: -13px;
+							}
+							.bor_info{
+								background: white none repeat scroll 0% 0%;
+								display: inline-block;
+								width: 31px;
+								position: absolute;
+								margin-top: 0px;
+								margin-left: -2px;
+								padding: 4px 2px 11px;
+								
+							}
+							.tab_center_th th{
+								text-align: center;							
+							}
+						}
+						.i_sent{
+			                cursor:pointer; 
+			                text-decoration: underline;     
+			            }
+			            .send_body{
+			                    position: fixed;
+			                    left: 0px;
+			                    top: 0px;
+			                    z-index: 5;
+			                    background: rgba(0, 0, 0, 0.42);
+			                    width: 100%;
+			                    height: 100%;
+			                    color: black;
+			                }
+			                .send_window{
+			                    background: white;
+			                    width: 880px;
+			                    margin: 20px auto;
+			                    height: 90%;
+			                    padding-top: 15px;
+			                    position: relative;
+			                }
+			                .tab_send{
+			                    width: 100%;
+			                    border: 0px solid;
+			                    margin-bottom: 20px;
+			                    background: rgba(201, 201, 201, 0.24);
+			                    padding-top: 13px;
+			                    padding-bottom: 13px;
+			                }
+			                .tab_send label{
+			                    width: 80px;
+			                    display: inline-block;
+			                    border: 1px solid #B0B0B0;
+			                    padding: 2px;
+			                    margin-right: -5px;
+			                    padding-bottom: 3px;
+			                    margin-left: 20px;
+			                }
+			                .tab_send input{
+			                    width: 75%;
+			                    color: black;
+			                    border: 1px solid #B0B0B0;
+			                }
+			                .close_window{
+			                    position: absolute;
+			                    left: 25px;
+			                    bottom: 10px;
+			                    padding: 5px;
+			                }
+			                .sent_order{
+			                    position: absolute;     
+			                    background: #0078FF;
+			                    color: white;
+			                    font-size: 16px;
+			                    font-weight: bold;
+			                    padding: 7px;
+			                    padding-left: 30px;
+			                    padding-right: 30px;
+			                    border-radius: 3px;
+			                    cursor: pointer;
+			                    bottom: 10px;
+			                    right: 20px;
+			                }
+			                hr{
+			                    color: rgba(150, 150, 150, 0.63);
+			                }
+			                #bottom_hr{
+			                    position: absolute;
+			                    bottom: 53px;
+			                }
+			                .sent_html{
+			                    overflow: auto;
+			                    height: 50%;
+			                }
+			           

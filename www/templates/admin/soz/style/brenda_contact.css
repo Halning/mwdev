@@ -1,0 +1,268 @@
+body{font-family: "Open Sans",Arial,"Times New Roman";}
+	.del_tr{
+		cursor: pointer;
+	}
+		.line_name{
+			color:#113C66;
+			font-size: 16px;
+			margin-left: 15px;
+		}
+		.line{
+			color: rgba(126, 126, 126, 0.21);
+		}
+		.brenda_body div select{width:130px;}
+		.body_logo_img{
+			border: 4px solid #808080;
+			text-align: center;
+			width: 210px;
+			vertical-align: middle;
+			font-size: 47px;
+			background: rgba(128, 128, 128, 0.14) none repeat scroll 0% 0%;
+			border-radius: 20px;
+			color: rgba(128, 128, 128, 0.63);
+			font-weight: bold;
+			margin: 17px;
+			padding-top: 67px;
+			padding-bottom: 67px;
+		}
+		.input_head{
+			width: 85%;
+			text-align: center;
+			margin-top: -10px;
+			margin-bottom: -10px;
+		}
+		#ta_tr{
+			display: inline-block;
+			padding: 20px;
+		}
+		.logo_info label, .bor_label{
+			display: inline-block;
+			width: 166px;
+			background: rgba(128, 128, 128, 0.48) none repeat scroll 0% 0%;
+			color: rgb(72, 60, 60);
+			text-align: center;
+			margin: 7px;
+			padding: 2px;
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+		.bor_label2{
+			display: inline-block;
+			width: 184px;
+		}
+		.logo_info input, .input_bor{
+			width: 300px;
+			border-radius: 1px;
+			border: 1px solid rgba(128, 128, 128, 0.71);
+		}
+		.input_bor2{
+			width: 250px;
+			border-radius: 1px;
+			border: 1px solid rgba(128, 128, 128, 0.71);
+			margin-bottom: 10px;
+		}
+		.logo_info textarea, .textarea_bor{
+			width: 300px;
+			height: 80px;
+			border-radius: 1px;
+			border: 1px solid rgba(128, 128, 128, 0.71);
+			vertical-align: top;
+			margin-top: 7px;
+			/*resize: none;*/
+		}
+		.but_add{
+		/*	border: 2px solid gray;
+			width: 20px;
+			display: inline-block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 18px;
+			color: #504A4A;
+			border-radius: 2px;
+			background: rgba(128, 128, 128, 0.45);*/
+			cursor: pointer;
+			background-image: url("../../../templates/admin/img/sprite.png");
+			background-repeat: no-repeat;
+			background-position: 0px -28px;
+			height: 26px;
+			width: 26px;
+			display: block;
+		}
+		.but_del{
+			background-image: url("../../../templates/admin/img/sprite.png");
+			background-repeat: no-repeat;
+			background-position: -54px -28px;
+			height: 26px;
+			width: 26px;
+			display: block;
+			float: left;
+			cursor: pointer;
+		}
+		#size_plus{
+			background-image: url("../../../templates/admin/img/sprite.png");
+			background-repeat: no-repeat;
+			background-position: 0px -16px;
+			height: 6px;
+			width: 11px;
+			display: block;
+			margin-top: -10px;
+			margin-left: 143px;
+		}
+		.but_sex{
+			border: 2px solid #808080;
+			width: 19px;
+			display: inline-block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 13px;
+			color: white;
+			border-radius: 2px;
+			background: rgba(128, 128, 128, 0.69) none repeat scroll 0% 0%;
+			cursor: pointer;
+			padding: 3px;
+			margin: 3px;
+		}
+		.but_sex_line{
+			border: 1px sloid;
+			border-color: #1495E7;
+			background: rgba(74, 133, 171, 0.65);
+		}
+		.size_brenda{
+			font-size: 13px;
+			color: #10477D;
+			cursor: pointer;
+		}
+		.tab_size{
+			/*width: 400px;
+		    height: 200px;*/
+		    border: 0px solid black;
+		   /* position: absolute;*/
+		    background: white;
+		    margin-top: 5px;
+		    padding: 5px;
+		}
+		#tab_tr{
+			padding-left: 65px;
+			display: block;
+		}
+		.tab_po, .tab_contact{
+			width: 100%;
+		}
+		.tab_po tr td{
+			/*display: inline-block;*/
+		}
+		.text_dop{
+			width: 300px;
+			height: 150px;
+			vertical-align: top;
+		}
+		#table_size{
+			border-collapse: collapse;
+		}
+		#table_size th, #table_size thead td{
+			border: 1px solid #ECF0F0;
+			background-color: #5FB0BA;
+			color: #FFF;
+			padding: 8px 12px;
+			font-size: 12px;
+			text-align: center;
+			vertical-align: baseline;
+		}
+		#table_size thead td, #table_size tr:first-child{
+			font-weight: bold;
+		}
+
+
+		#table_size td{
+			border: 1px solid #ECF0F0;
+			background-color: #F4F8F8;
+			padding: 3px 5px;
+			font-size: 12px;
+			text-align: center;
+			vertical-align: baseline;
+		}
+		#add_tr{
+			cursor:pointer;
+		}
+		.input_size{
+			text-align: center;
+			width: 70px;
+			margin-bottom: -2px;
+		}
+		.head_th_del{
+			width: 9px;
+			cursor: pointer;
+			/*position: absolute;
+			margin-left: 2px;
+			margin-top: -6px;*/
+		}
+		.icon_upload{
+			background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+		    width: 31px;
+		    height: 29px;
+		    background-size: 1611px 1745px;
+		    background-repeat: no-repeat;
+		    background-attachment: scroll;
+		    background-position: -976px -1099px;
+		}
+		.upload_up{
+			border: 1px solid gray;
+		    border-radius: 6px;
+		    padding: 4px;
+		    padding-top: 9px;
+		    padding-bottom: 9px;
+		    margin: 5px;
+		    cursor: pointer;
+		    position: relative;
+		}
+		.upfile{
+			position: absolute;
+		    left: 0px;
+		    top: 0px;
+		    width: 30px;
+		    height: 39px;
+		    opacity: 0;
+		    cursor: pointer;
+		}
+		.fa-times{
+			color:red
+		}
+		.headDD{
+			position: relative;
+		}
+		.headDD .fa-times{
+			position: absolute;
+			top: 0;
+			right: 2px;
+		}
+	/*New table*/
+	.brendaTableSize{
+		border-collapse: collapse;
+	}
+	.brendaTableSize td, .brendaTableSize th{
+		border: 1px solid #ECF0F0;
+	}
+	.brendaTableSize th{
+		background-color: #5FB0BA;
+		color: white;
+    	padding: 2px 14px;
+    	position: relative;
+	}
+	.thDelete{
+		position: absolute;
+    	top: -1px;
+    	right: 1px;
+    	font-size: 12px;
+	}
+	.brendaTableSize th:last-child{
+		background: none;
+    	border-top: none;
+    	border-right: none;
+	}
+	.brendaTableSize td{
+		text-align: center;
+	}
+	.brendaTableSize .fa-times{
+		color: red;
+		cursor: pointer;
+	}

@@ -1,0 +1,124 @@
+<table class='allTab viemAdd'  style='display: none;'>
+								<th></th><th colspan=2 >Бонус</th><th colspan=2 >Условие</th><th colspan=2 >Период</th><th></th>
+								<tr>
+									<td>
+										Доставка:
+									</td>
+									<td colspan=2 >
+										<select class='selectBonus pressSelectS' id='bonus_delivery' disabled rel-real={$bonus_delivery} >
+											<option></option>
+											<option value=1 >Бесплатная</option>
+											<option value=2 >Платная</option>
+										</select>
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='cond_delivery_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='cond_delivery_select' disabled >
+											<option></option>
+											<option value=1>ед/заказ</option>
+											<option value=2>грн/заказ</option>
+											<option value=3>дней</option>
+										</select>
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='period_delivery_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='period_delivery_select' disabled>
+											<option></option>
+											<option value=1>ед/заказ</option>
+											<option value=2>грн/заказ</option>
+											<option value=3>дней</option>
+										</select>
+									</td>
+
+									<!--Button write and save-->
+									<td rowspan=3 class='butWStd'> 
+										<div class='butWS butWrite' >
+											<div>W</div>
+										</div>
+										<div class='butWS active butSave' >
+											<div>S</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Скидка:
+									</td>
+									<td>
+										<input type='text' style='width: 55px;' value='0' class='pressKeyS' id='bonus_skidka_input' disabled />
+									</td>
+									<td>
+										<select  class='pressSelectS' id='bonus_skidka_select' disabled>
+											<option></option>
+											<option value=1>%</option>
+											<option value=2>грн</option>
+											<option value=3>руб</option>
+										</select>
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='cond_skidka_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='cond_skidka_select' disabled >
+											<option></option>
+											<option value=1 >ед/заказ</option>
+											<option value=2 >грн/заказ</option>
+											<option value=3 >заказ</option>
+										</select>
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='period_skidka_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='period_skidka_select' disabled >
+											<option></option>
+											<option value=1 >ед/заказ</option>
+											<option value=2 >грн/заказ</option>
+											<option value=3 >заказ</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Подарок:
+									</td>
+									<td colspan=2 >
+										<select class='selectBonus pressSelectS' id='bonus_gift' disabled >
+											<option></option>
+											<option value=1 >Платье</option>
+											<option value=2 >Футболка</option>
+											<option value=3 >150 грн </option>
+										</select>
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='cond_gift_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='cond_gift_select' disabled >
+											<option></option>
+											<option value=1>ед/заказ</option>
+											<option value=2>грн/заказ</option>
+											<option value=3>заказ</option>
+											<option value=4>Регистрация</option>
+										</select>
+										
+									</td>
+									<td>
+										<input type='text' class='inputConditional pressKeyS' id='period_gift_input' value='0' disabled />
+									</td>
+									<td>
+										<select class='selectConditional pressSelectS' id='period_gift_select' disabled>
+											<option></option>
+											<option value=1>ед/заказ</option>
+											<option value=2>грн/заказ</option>
+											<option value=3>заказ</option>
+										</select>
+										
+									</td>
+								</tr>
+
+								</table>

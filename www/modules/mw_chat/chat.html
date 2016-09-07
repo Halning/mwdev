@@ -1,0 +1,126 @@
+
+
+<div class="body_chat" style="display: none;" >
+	<div class="c_head"> 
+		<div class="traingle"></div>
+	</div>
+	<div class="c_head2">
+		<div class="tabb tableImg">
+			<div class="tab-cell">
+				<div class="head_img">
+					<div>
+					<img src="/modules/mw_chat/html_logo.png" class="chat_img" />
+					</div>
+					<div class="icon_img">
+						<i class="fa fa-cloud-upload"></i>
+					</div>
+				</div>
+			</div>
+			<div class="tab-cell" style="vertical-align: bottom;padding-left: 10px;">
+				<div class="line_tab">
+					<div style="display: table;"> 
+						<div style="display: table-cell;width: 102px;padding-left: 7px;">Оператор: </div>
+						<div class="select_admin" style="display: table-cell;position: relative;">
+							<!-- <span>Алиса</span>
+							<span class="active">Марина</span>
+							<span>Диана</span> -->
+						</div>
+						<div style="display: table-cell;"><button class="but_add_name">+</button></div>
+
+					</div>
+					<div class="line_tab2">
+						<table class="table_top">
+							<tr><td>E-mail:</td><td class="edit_tab" rel-tab="co_email" ></td></tr>
+							<tr><td>Описание:</td><td  class="edit_tab" rel-tab="co_text" ></td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tabb table_chat">
+			<div class="tab-cell" style="width: 314px;">
+				<table class="table_bottom">
+					<tr>
+						<td>
+							<div class="lnn">
+								<div class="line_name" rel-in='1' >КЛИЕНТЫ</div>
+								<div class="line_name" rel-in='2' >ЗАКАЗЫ</div>
+								<div class="line_name" rel-in='3' >ТОВАРЫ</div>
+							</div>
+						</td>
+						<td>
+							<div class="lll">
+								<div class="liuser include1" style="display: none">
+									<ul>
+										<!-- <li><i class="fa fa-user fauser"></i> Maxim Kosovets <span class="signal_num">10</span></li> -->
+									</ul>
+								</div>
+								<div class="liuser include2"  style="display: none">
+									<ul>
+										
+									</ul>
+								</div>
+								<div class="liuser include3"  style="display: none">
+									<ul>
+										<li><i class="fa fa-user fauser"></i> Maxim <span class="signal_num">10</span></li>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="tab-cell">
+				<div class="read_chat">
+					<div class="admin_chat">
+						<div class="admin_chat_img">
+							<img src="/modules/mw_chat/html_logo.png" />
+						</div>
+						<div class="admin_chat_read">
+							<div id='putchat'>
+								Hello! How are you?
+							</div>
+						</div>
+					</div>
+					<!-- <div class="client_chat">
+						<div class="client_chat_read">
+							<div>
+								Hi! Good!
+							</div>
+						</div>
+						<div class="client_chat_img">
+							<img src="/modules/mw_chat/html_logo.png" />
+						</div>
+					</div> -->
+					<div class="chatbottom"></div>
+				</div>
+				<textarea class="send_chat" style="resize: none;" ></textarea>
+				<button class="but_send">ОТПРАВИТЬ</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="body_upload" style="display: none">
+	<div class="head_upload">
+		<div class="line_head"><i class="fa fa-times"></i></div>
+		<div class="upload_img">
+			<img src="" />
+		</div>
+		<!-- Progress upload -->
+		<div class="upprogress">
+			<div class="see_progress"></div>
+			<div class="text_pro">0%</div>
+		</div>
+		<div class="div_form">
+			<form id="formfile" action="ajax/upload.php" method="POST" enctype="multipart/form-data">
+				<div class="up_name">ЗАГРУЗИТЬ <i class="fa fa-cloud-upload"></i> </div>
+				<input type="file" id="upload_file" name="upload_file" />
+				<input type="submit" name="submit" value="ЗАГРУЗИТЬ" />
+			</form>
+		</div>
+	</div>
+</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/modules/mw_chat/style.css" />
+
+

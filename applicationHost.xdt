@@ -1,0 +1,11 @@
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform"> 
+  <system.webServer> 
+    <runtime xdt:Transform="InsertIfMissing"> 
+      <environmentVariables xdt:Transform="InsertIfMissing"> 
+        <add name="PATH" value="%PATH%d:\home\site\ext\;" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" /> 
+        <add name="MAGICK_HOME" value="d:\home\site\ext\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" /> 
+        <add name="MAGICK_CODER_MODULE_PATH" value="d:\home\site\imagickwin\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" /> 
+      </environmentVariables> 
+    </runtime> 
+  </system.webServer> 
+</configuration>

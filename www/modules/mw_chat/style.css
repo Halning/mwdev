@@ -1,0 +1,460 @@
+body{
+    font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.tabb{
+    display: table;
+}
+.tab-row{
+    display: table-row;
+}
+.tab-cell{
+    display: table-cell;
+    vertical-align: top;
+}
+.body_chat{
+    /*border: 1px solid #686868;*/
+    width: 750px;
+    background: #eee;
+    box-shadow: 1px 1px 9px black;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+}.body_chat .c_head{
+    border: 1px solid #686868;
+    width: 100% !important;
+    height: 24px;
+}
+.body_chat .c_head2{
+    border: 1px solid #686868;
+    width: 100% !important;
+    margin-top: -1px;
+    color: black !important;
+    font-weight: normal !important;
+}
+.traingle{
+    width: 0px;
+    border: 7px solid transparent;
+    border-top: 10px solid gray;
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+.tableImg{
+    margin: 7px;
+    width: 100%;
+}
+.head_img{
+    position: relative;
+    border: 1px solid #686868;
+    padding: 2px;
+    background: #CECECE;
+}
+.head_img .icon_img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: none; 
+    width: 93%;
+    background: rgba(255, 255, 255, 0.59);
+}
+.head_img .fa-cloud-upload{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.head_img div{
+    padding: 3px
+}
+.chat_img{
+    width: 80px;
+    background: white;
+}
+
+.table_chat{
+    width: 100%;
+    margin: 0px 0px 7px 0px;
+}
+.table_chat li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 0px;
+    cursor: pointer;
+    position: relative;
+    padding: 2px 0px;
+}
+.table_chat li:hover, .tb_active{
+    background: #dadada;
+}
+
+.table_chat .tab-cell:last-child{
+    padding-right: 7px;
+}
+.table_chat .tab-cell:first-child{
+    padding-left: 7px;
+}
+.fauser{
+    font-size: 15px !important;
+    color: #9E9E9E;
+    padding: 4px 10px;
+}
+
+.read_chat{
+    overflow: auto;
+    height: 200px;
+    background: white;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    width: 420px;
+}
+.send_chat{
+    height: 74px;
+    width: 420px;
+    overflow: auto;
+    border: 1px solid gray;
+    margin-bottom: 8px;
+    background: white;
+}
+.but_send{
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+}
+.line_name{
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid gray;
+    margin-bottom: 1px;
+    background: #DADADA;
+    cursor: pointer;
+    text-align: center;
+    width: 97px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.ln_active{
+    border-right: 0px solid;
+    background: #eee;
+    width: 98px;
+    font-weight: bold;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.liuser{
+    border: 1px solid gray;
+    background: white;
+    width: 185px;
+    height: 309px;
+    overflow: auto;
+}
+.table_bottom{
+    border-collapse: collapse;
+}
+.table_bottom td{
+    vertical-align: top;
+}
+.table_bottom td:first-child{
+    position:relative;
+    width: 110px;
+}
+.table_bottom td:last-child{
+    position:relative;
+    width: 200px;
+}
+.table_top{
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+.table_top td{
+    border: 1px solid gray;
+}
+.table_top td:first-child{
+    padding: 3px;
+}
+.edit_tab{
+    width: 500px !important; 
+    vertical-align: middle;
+}
+.lll{
+    border: 1px solid gray;
+    padding: 3px;
+    margin-left: 0px;
+    position: absolute;
+}
+.lnn{
+    position: absolute;
+    z-index: 1;
+}
+.signal_num{
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    background: #FF8D00;
+    padding: 4px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    width: 10px;
+    text-align: center;
+}
+.line_tab{
+    padding: 3px;
+
+}
+.line_tab2{
+    border: 1px solid gray;
+    padding: 3px;
+    background: #cecece;
+    width: 622px;
+}
+.admin_chat,.client_chat{
+    display: table;
+    padding: 9px;
+}
+.admin_chat div,.client_chat div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.admin_chat_img, .client_chat_img{
+    vertical-align: top !important;
+}
+.admin_chat div{
+    padding-left: 12px;
+}
+.client_chat div{
+    padding-right: 12px;
+}
+.admin_chat_read div{
+    background: #F5F5F5;
+}
+.client_chat_read div{
+    background: #DFEBFE;
+}
+.admin_chat_read, .client_chat_read{
+    width: 200px;
+}
+.admin_chat_read div, .client_chat_read div{
+    border: 1px solid gray;
+    padding: 4px;
+    padding-right: 35px;
+    font-size: 13px;
+    border-radius: 3px;
+    position: relative;
+}
+.admin_chat_read div span, .client_chat_read div span{
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+    color: gray;
+    font-size: 10px;
+}
+
+.admin_chat_read div::before, .admin_chat_read div::after {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    border: 5px solid transparent;
+    border-right: 6px solid gray;
+}
+.admin_chat_read div::after {
+    border-right: 6px solid #F5F5F5;
+    left: -10px;
+    top: 5px;
+}
+.client_chat_read div::before, .client_chat_read div::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -11px;
+    border: 5px solid transparent;
+    border-left: 6px solid gray;
+}
+.client_chat_read div::after {
+    border-left: 6px solid #DFEBFE;
+    top: 5px;
+    right: -10px;
+}
+.client_chat_read div, .client_chat{
+    float: right;
+}
+.admin_chat_img img, .client_chat_img img{
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.select_admin{
+    padding: 0px 12px;
+}
+.select_admin span{
+    border: 1px solid #808080;
+    padding: 4px 13px;
+    margin: 0 1px;
+    background: #CECECE;
+    border-bottom: 0px solid;
+    cursor: pointer;
+}
+.select_admin .active{
+    border: 1px solid #808080;
+    padding: 4px 13px;
+    padding-bottom: 7px;
+    background: #FFFFFF;
+    border-bottom: 0px solid;
+}
+
+.open_chat{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.body_upload{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.43);
+    color: black;
+}
+.head_upload{
+    width: 500px;
+    /*height: 100px;*/
+    background: white;
+    margin: 10% auto;
+    text-align: center;
+}
+.body_upload .fa-times{
+    font-size: 16px;
+    position: absolute;
+    right: 2px;
+}
+.body_upload .line_head{
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+.body_upload .fa-times:hover{
+    color: #EA3C3C;
+}
+.upprogress{
+    /*border: 1px solid #949494;*/
+    width: 300px;
+    height: 15px;
+    font-size: 12px;
+    margin: 7px auto;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.upprogress .see_progress{
+    background-color: #337AB7;
+    width: 0%;
+    height: 100%;
+}
+.text_pro{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.upload_img img{
+    width: 200px;
+}
+
+.loading_img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    display: table;
+    margin: 0 auto;
+}
+.loading_img div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.loading_img .fa-spinner{
+    font-size: 3em;
+}
+.div_form{
+    position: relative;
+    width: 300px;
+    height: 42px;
+    margin: 0 auto;
+}
+.div_form input[type=file]{
+    position: absolute;
+    z-index: 10;
+    top: -2px;
+    left: 0;
+    width: 293px;
+    opacity: 0; 
+    cursor: pointer;
+}
+.body_upload .up_name{
+    margin: 10px auto;
+    width: 300px;
+    padding: 7px 0px;
+    border-radius: 2px;
+    background-color: #337AB7;
+    border-color: #2E6DA4;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -13px;
+    left: 0px;
+}
+.but_ok{
+    cursor: pointer;
+}
+.body_upload .fa-cloud-upload{
+
+}
+
+.but_add_name{
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: () !important;
+}
+#longing_client{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+#longing_client .fa-spinner{
+    font-size: 2em;
+    margin-top: 20px;
+}
+@-moz-document url-prefix() {
+    .table_bottom td:last-child{
+        position:relative;
+        width: 76px;
+    }
+    .signal_num{
+        top: 3px;
+    }
+    .select_admin span, .select_admin .active{
+        padding: 3px 13px;
+        margin: 0 1px;
+    }
+    .select_admin .active{
+        padding-bottom: 6px;
+    }
+    .line_tab2{
+        width: 620px;
+    }
+    .but_add_name{
+        font-size: 15px;
+        width: 24px;
+        height: 24px;
+    }
+}

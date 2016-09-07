@@ -1,0 +1,496 @@
+
+.icon_info_white{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 23px;
+	height: 23px;
+	background-size: 281px 298px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -49px -133px;
+	margin-top: 3px;
+}
+.close_backg {
+    background: white;
+    color: #484EC9;
+    padding-bottom: 0px;
+}
+.wind_names{
+	 position: absolute;
+    background: white;
+    color: black;
+    font-size: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 2px solid #2B7C98;
+    border-right: 2px solid #2B7C98;
+    border-bottom: 2px solid #2B7C98;
+    box-shadow: 0px 4px 7px black;
+    margin-top: 15px;	
+    margin-left: -2px;
+    z-index: 10;
+    overflow: hidden;
+    /*max-height: 0px;*/
+}
+.wind_names table{
+	border-collapse: collapse;	
+}
+.wind_names table td{
+	border: 0px solid;
+}
+.wind_names table tr:nth-child(even){
+	background:#E8E8E8;
+}
+.wind_names table td:nth-child(1){text-align:right;}
+.wind_names table td:nth-child(2){font-weight: normal;}
+
+.w_cli{
+	border: 1px solid black;
+	border-collapse: collapse; 
+	border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.w_cli td{
+	padding: 0px;
+ 	padding-top: 2px;
+ 	padding-bottom: 0px;
+ 	border-left: 0px solid #CCC;
+}
+.w_cli td:nth-child(1) {
+	border-right: 1px solid #CCC;
+}
+.w_cli td:nth-child(2) {
+	padding-left: 2px;
+}
+.w_cli td:last-child {
+	padding-right: 2px;
+	border-right: 1px solid #CCC;
+}
+.w_cli .hdiv{
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+.w_cli td:first-child .hdiv, table td:last-child .hdiv{
+	background: white;
+}
+.w_cli .hdiv .hdiv2{
+	background: #2B7C98;
+	padding: 5px;
+	color: white;
+    font-weight: bold;
+    font-size: 13px;	
+}
+.w_cli td:nth-child(2) .hdiv .hdiv2{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.w_cli td:last-child .hdiv .hdiv2{
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px; 
+}
+.w_cli .hdiv .hdiv2{
+	display: table-cell;
+	vertical-align: middle;
+}
+.w_cli .tab_down td:nth-child(2) .hdiv .hdiv2{
+	border-bottom-left-radius: 0px;
+	/*border-top-left-radius: 10px;*/
+}
+.w_cli .tab_down td:last-child .hdiv .hdiv2{
+	border-bottom-right-radius: 0px;
+	/*border-top-right-radius: 10px; */
+}
+
+.open_search{
+	position: absolute;
+    left: 20px;
+    top: 24px;
+    background: white;
+    display:none;
+    color: black;
+ 			font-size: 14px;
+ 			border: 1px solid gray;
+ 			z-index: 5;
+ 			width: 277px;
+}
+.open_search div{
+	padding: 2px;
+}
+.open_search div:hover{
+	background:blue;
+	color:white;
+	cursor:pointer;
+}
+.search_but{
+	border: 1px solid gray;
+    margin-left: 20px;
+}
+.search_but input{
+	width: 270px;
+	color: black;
+	margin-bottom: 0px;
+}
+.search_but select{
+ 			height: 23px;
+}
+.search_but span{
+	background: gray;
+    color: white;
+    padding: 4px;
+    cursor:pointer;
+}
+.client_line{
+	background:#2B7C98;
+	color:white;
+	width:100%;
+	font-size: 13px;
+	padding: 5px;
+	font-weight: bold;
+	display:table;
+}
+.table_line{
+	border: 2px solid #2B7C98;
+}
+
+.table_line table td{
+	border: 1px solid #ccc;
+    text-align: center;
+    padding: 4px;
+    vertical-align: middle;
+}
+.tab_up{
+	border-radius: 7px;
+}
+.tab_down{
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.tab_td{
+	display:table-cell;
+	padding: 3px;
+}
+.cli_open{
+	/*width:10px;*/
+	cursor:pointer;
+	/*padding:2px;
+	padding-left: 7px;*/
+}
+.cli_cod{
+	width: 65px;
+}
+.cli_date{
+	width: 155px;
+}
+.cli_id{
+	width: 46px;
+}
+.cli_status{
+	width: 172px;
+}
+.cli_name{
+	width: 222px;
+}
+.cli_count{
+	width: 5%;
+}
+.cli_summa{
+	width:8%;
+}
+.cli_cont{
+	width:8%;
+	cursor:pointer;
+}
+.cli_xls{
+	width:8%;
+}
+.cli_chat{
+	width:8%;
+}
+.cli_check{
+	
+}
+#brow_line{
+	position: absolute;
+	top: 0px;
+}
+#brow_line2{
+	position: absolute;
+	top: 8px;
+}
+.cli_info{
+	position: absolute;
+	margin-left: -6px;
+	margin-top: 20px;
+	color: black;
+	background: white;
+	z-index:100;
+	border-bottom: 2px solid #2B7C98;
+	border-right: 2px solid #2B7C98;
+	border-left: 2px solid #2B7C98;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	font-size: 11px;
+	box-shadow: 0px 7px 10px black;
+}
+.cli_info .info_td{
+	color:#2B7C98;
+	text-align: right;
+}
+.cli_info table{
+	border-collapse: collapse;
+}
+.cli_info table tr:nth-child(even){
+	background: rgb(224, 224, 224);
+}
+.cli_info table tr td{
+	border: 0px solid;
+}
+.block_up{
+	border-bottom: 8px solid white;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	width: 0px;
+	height: 0px;
+}
+.block_down{
+	border-top: 8px solid white;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	width: 0px;
+	height: 0px;
+}
+.block_up1{
+	border-bottom: 5px solid #2B7C98;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	width: 0px;
+	height: 0px;
+}
+.block_down1{
+	border-top: 5px solid white;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	width: 0px;
+	height: 0px;
+}
+
+.block_down1_orange {
+  border-top: 5px solid rgb(248, 106, 5);
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  width: 0px;
+  height: 0px;
+}
+
+.block_down2{
+	border-top: 7px solid #366AB8;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	width: 0px;
+	height: 0px;
+	float:left;
+}
+.block_up2{
+	border-bottom: 7px solid #366AB8;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	width: 0px;
+	height: 0px;
+	float:left;
+}
+
+.bcc{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+.bcc1{
+	position: absolute;
+	margin-top: -11px;
+	margin-left: -2px;
+}
+.icon_xls{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 17px;
+	height: 19px;
+	background-size: 500px 600px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -311px -250px;
+}
+.icon_cont{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 20px;
+	height: 12px;
+	background-size: 500px 600px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -200px -232px;
+}
+.icon_cont1{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 20px;
+	height: 12px;
+	background-size: 500px 600px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -246px -232px;
+}
+.icon_chat{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 20px;
+	height: 19px;
+	background-size: 500px 600px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -312px -315px;
+	cursor: pointer;
+}
+
+.icon_info_blue{
+    background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+    width: 23px;
+    height: 23px;
+    background-size: 281px 298px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -22px -133px;
+    margin-top: 3px;
+}
+.icon_info_orange{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+  	width: 23px;
+  	height: 23px;
+  	background-size: 281px 298px;
+  	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: -22px -160px;
+}
+.bor_xls{
+	position: absolute;
+  				margin-top: -3px;
+}
+.bor_chat{
+	position: absolute;
+  				margin-top: -1px;
+}
+.go_href{
+	cursor:pointer;	
+}
+.bor_info{
+	background: white none repeat scroll 0% 0%;
+	width: 25px;
+    height: 12px;
+    margin-top: -4px;
+    margin-left: -4px;
+    padding: 4px;
+    padding-bottom: 9px;
+}
+
+.table_line2_gr{
+    width: 489px;
+    border: 2px solid black;
+	margin-left: 20px;
+ 			background: white none repeat scroll 0% 0%;
+}
+.table_line2_white{
+	border: 2px solid rgb(49, 49, 49);
+	margin-left: 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.tab_info{
+ 	border-collapse: collapse;
+ 	border: 1px solid white;
+ 	margin: 3px;
+}
+.tab_info td{vertical-align: middle;}
+.tab_info td:nth-child(1){
+	 padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+ 	background: #313131;
+    font-weight: bold;
+}
+
+.tab_info td:nth-child(2), .tab_info td:nth-child(3), .tab_info td:nth-child(4), .tab_info td:nth-child(5), .tab_info td:nth-child(6){
+	 padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    text-align: center;
+    color:#313131;
+    border: 1px solid #313131;
+ 	/*border-left: 1px solid #313131;*/
+    font-weight: bold;
+}
+.icon_calendar{
+	background: url(http://makewear.com.ua/templates/admin/img/soz2.png);
+	width: 22px;
+	height: 19px;
+	background-size: 600px 577px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: -115px -137px;
+}
+.order_note{
+   position: absolute;
+   top: -5px;
+   cursor: pointer;
+}
+
+@-moz-document url-prefix() { 
+	#brow_line{
+		position: absolute;
+		top: -11px;
+	}
+	#brow_line2{
+		position: absolute;
+		top: 23px;
+	}
+	.cli_info{
+		margin-top: 12px;
+		margin-left: -6px;
+	}
+	.bor_xls{
+		position: absolute;
+		margin-top: -15px;
+	}
+	.bor_chat{
+		position: absolute;
+		margin-top: -13px;
+	}
+	.bor_info{
+		background: white none repeat scroll 0% 0%;
+		/*display: inline-block;*/
+		width: 25px;
+	/*	position: absolute;*/
+		margin-top: -4px;
+		margin-left: -4px;
+		padding: 4px 4px 8px;
+		padding-bottom: 11px;
+	}
+	.search_but{
+		/*width: 476px;*/
+	}
+	.search_but input{
+		width: 270px;
+		color: black;
+	   height: 15px;
+	}
+	.search_but select{
+	    height: 25px;
+		position: absolute;
+		left: -1px;
+		top: -1px;
+		width: 154px;
+	}
+	.search_but div:nth-child(2){
+	  	width: 152px;
+	}
+	.order_note{
+		position: absolute;
+	 	top: -19px;
+	}
+}
